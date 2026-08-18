@@ -296,6 +296,36 @@
       font-weight: 560;
     }
 
+    .task-guide {
+      border: 1px solid #eee0cc;
+      border-radius: 6px;
+      background: #fffaf1;
+      color: #4d4538;
+      font-size: 0.94rem;
+    }
+
+    .task-guide summary {
+      padding: 7px 9px;
+      cursor: pointer;
+      font-weight: 750;
+    }
+
+    .task-guide-body {
+      display: grid;
+      gap: 8px;
+      padding: 0 10px 10px;
+    }
+
+    .task-guide ol {
+      margin: 0;
+      padding-left: 21px;
+    }
+
+    .task-guide p {
+      margin: 0;
+      color: #5c5141;
+    }
+
     textarea {
       width: 100%;
       min-height: 38px;
@@ -739,7 +769,7 @@
             saveState();
           });
 
-          main.append(text, note);
+          main.append(text, taskGuide(item.task), note);
 
           const tag = document.createElement("div");
           tag.className = "tag";
@@ -812,6 +842,251 @@
 
     function escapeRegExp(value) {
       return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    }
+
+    function taskGuide(task) {
+      const guide = guideForTask(task);
+      const details = document.createElement("details");
+      details.className = "task-guide";
+      const summary = document.createElement("summary");
+      summary.textContent = "How to do this";
+      const body = document.createElement("div");
+      body.className = "task-guide-body";
+      const list = document.createElement("ol");
+      guide.steps.forEach(step => {
+        const item = document.createElement("li");
+        item.textContent = step;
+        list.append(item);
+      });
+      const done = document.createElement("p");
+      done.innerHTML = `<strong>Done when:</strong> ${escapeHtml(guide.doneWhen)}`;
+      body.append(list, done);
+      details.append(summary, body);
+      return details;
+    }
+
+    function guideForTask(task) {
+      const exact = {
+        "Confirm Android phone recording workflow.": {
+          steps: [
+            "Open the phone Camera app.",
+            "Set video quality to 1080p at 30 fps, or the closest available setting.",
+            "Clean the lens with a soft cloth.",
+            "Record a 20-second test clip in the same place you expect to film.",
+            "Play it back on the phone and check that the picture, sound, and framing are usable.",
+            "Write down the phone model, video setting, and any problem you noticed."
+          ],
+          doneWhen: "you have one usable phone test clip and a short note saying which phone/settings will be used."
+        },
+        "Define minimum Android phone specs for beginner YouTubers.": {
+          steps: [
+            "Open Beginner YouTube Curriculum.",
+            "Find the section about minimum Android phone specs.",
+            "Write the minimum acceptable specs: 1080p video, 30 fps, usable storage, working microphone, and USB transfer.",
+            "Write the preferred specs separately: 60 fps, 128 GB storage, USB-C, and stable focus/exposure.",
+            "Turn the list into a simple beginner-friendly checklist."
+          ],
+          doneWhen: "the specs are written clearly enough that a beginner can check their own phone without asking you."
+        },
+        "Confirm Android-to-PC transfer method.": {
+          steps: [
+            "Connect the Android phone to the PC with a USB cable.",
+            "Unlock the phone and choose File Transfer if Android asks.",
+            "Open File Explorer on the PC and find the phone storage.",
+            "Copy one test video from the DCIM or Camera folder to the project footage folder.",
+            "Open the copied file on the PC and confirm it plays."
+          ],
+          doneWhen: "one test video has been copied from phone to PC and plays correctly from the PC folder."
+        },
+        "Confirm computer editing workflow.": {
+          steps: [
+            "Choose the computer you will edit on.",
+            "Install or open the first editing program you plan to test.",
+            "Import one test video.",
+            "Cut out a small section.",
+            "Export the result as a test video.",
+            "Play the exported file and check that picture and sound work."
+          ],
+          doneWhen: "you have imported, cut, exported, and played one test edit successfully."
+        },
+        "Create folder structure for raw footage, edits, thumbnails, and exports.": {
+          steps: [
+            "Create one main folder for the channel.",
+            "Inside it, create folders named 01_Raw_Footage, 02_Project_Files, 03_Thumbnails, 04_Exports, and 05_Notes.",
+            "Create a folder for Video_001 inside each one.",
+            "Move or copy the test clip into 01_Raw_Footage/Video_001.",
+            "Write the folder structure into your notes so it can be taught in a tutorial."
+          ],
+          doneWhen: "the folders exist and Video 001 has a place for raw footage, edit files, thumbnails, exports, and notes."
+        },
+        "Publish first video.": {
+          steps: [
+            "Open YouTube Studio.",
+            "Upload the exported video file.",
+            "Add the final title, description, thumbnail, audience setting, playlist, and visibility.",
+            "Check processing quality before making it public.",
+            "Publish or schedule it.",
+            "Open the public video page and confirm it looks correct."
+          ],
+          doneWhen: "the first video is public or scheduled and you have checked the public video page."
+        },
+        "Promote first video using the distribution checklist.": {
+          steps: [
+            "Open Distribution And Promotion Plan.",
+            "Create at least one Short from the strongest moment.",
+            "Create one TikTok clip if the moment works vertically.",
+            "Write one X.com post with a useful lesson, not just a link.",
+            "Create one Pinterest or Facebook post only if the topic fits.",
+            "Record what you posted and where."
+          ],
+          doneWhen: "the first video has at least one useful external promotion item and one Short attached to it."
+        }
+      };
+
+      if (exact[task]) return exact[task];
+
+      const cleanTask = task.replace(/\.$/, "");
+      if (task.startsWith("Confirm ")) {
+        return {
+          steps: [
+            `Find the thing named in this task: "${cleanTask.replace(/^Confirm /, "")}".`,
+            "Do one small real-world test instead of only thinking about it.",
+            "Write down what worked, what failed, and what you will use going forward.",
+            "If the result affects a lesson, add the result to the relevant HTML document."
+          ],
+          doneWhen: "you have tested it, written the decision down, and know the next action."
+        };
+      }
+      if (task.startsWith("Write ")) {
+        return {
+          steps: [
+            "Open a notes file or the relevant HTML document.",
+            "Write a rough version first; do not try to make it perfect.",
+            "Read it out loud once.",
+            "Shorten or simplify any sentence that sounds confusing.",
+            "Save the final wording."
+          ],
+          doneWhen: "the wording exists, is saved, and can be copied into the channel or script."
+        };
+      }
+      if (task.startsWith("Create ")) {
+        return {
+          steps: [
+            "Decide exactly what file, template, folder, tracker, or asset this task needs.",
+            "Make the simplest usable first version.",
+            "Put it somewhere obvious in the project folder or browser docs.",
+            "Add one example so you know how to use it later.",
+            "Open it once and confirm it is usable."
+          ],
+          doneWhen: "the item exists, has an example or clear purpose, and you can use it for the next video."
+        };
+      }
+      if (task.startsWith("Decide ")) {
+        return {
+          steps: [
+            "Write the decision question in one sentence.",
+            "List the realistic options.",
+            "Pick the safest option for the next 30 days.",
+            "Write why you picked it.",
+            "Mark it as reversible or locked."
+          ],
+          doneWhen: "one option is chosen and the reason is written down."
+        };
+      }
+      if (task.startsWith("Choose ")) {
+        return {
+          steps: [
+            "List 3-5 possible options.",
+            "Remove anything too expensive, too complicated, or irrelevant to beginners.",
+            "Pick the first option to test.",
+            "Write why it was chosen.",
+            "Write what would make you change your mind."
+          ],
+          doneWhen: "one option is selected as the next test, with a short reason."
+        };
+      }
+      if (task.startsWith("Draft ")) {
+        return {
+          steps: [
+            "Open the matching roadmap, curriculum, or script page.",
+            "Write the video promise in one sentence.",
+            "Write the first 15 seconds.",
+            "List the main teaching points in order.",
+            "Add the ending: recap, next video, and soft channel bridge."
+          ],
+          doneWhen: "a rough script or bullet outline exists and could be recorded from."
+        };
+      }
+      if (task.startsWith("Record ")) {
+        return {
+          steps: [
+            "Prepare the phone, microphone, screen recorder, or camera.",
+            "Record a short test first.",
+            "Watch or listen to the test.",
+            "Fix the biggest problem only.",
+            "Record the real version or another test if needed."
+          ],
+          doneWhen: "a usable recording exists in the correct raw footage folder."
+        };
+      }
+      if (task.startsWith("Test ")) {
+        return {
+          steps: [
+            "Do the smallest possible test of this workflow.",
+            "Use a real sample file, not an imaginary example.",
+            "Write down the steps you followed.",
+            "Write down any problem and the fix.",
+            "Repeat once if the first test failed."
+          ],
+          doneWhen: "the workflow succeeds once and the steps are written down."
+        };
+      }
+      if (task.startsWith("Review ")) {
+        return {
+          steps: [
+            "Open the relevant video, analytics page, checklist, or document.",
+            "Look for one clear thing that worked.",
+            "Look for one clear thing that failed.",
+            "Write one improvement for the next upload.",
+            "Turn any useful viewer question into a future video idea."
+          ],
+          doneWhen: "one lesson and one next action are written down."
+        };
+      }
+      if (task.startsWith("Reach ")) {
+        return {
+          steps: [
+            "Check the current number in YouTube Studio or the funding tracker.",
+            "Write the current number and date.",
+            "If the target is not reached, leave the task as Not Started or In Progress.",
+            "If the target is reached, write what helped get there.",
+            "Decide the next milestone."
+          ],
+          doneWhen: "the target number is reached and recorded with the date."
+        };
+      }
+      if (task.startsWith("Apply ")) {
+        return {
+          steps: [
+            "Check the latest eligibility requirements.",
+            "Confirm the payout route is clear.",
+            "Prepare identity, tax, channel, and policy information.",
+            "Apply only when the account setup is legitimate and documentable.",
+            "Save notes about the application date and result."
+          ],
+          doneWhen: "the application is submitted safely or the reason for waiting is written down."
+        };
+      }
+      return {
+        steps: [
+          "Restate the task in plain words.",
+          "Find the document, tool, or account needed for the task.",
+          "Do the smallest real action that moves it forward.",
+          "Write the result in the notes box.",
+          "Set the status to In Progress or Completed."
+        ],
+        doneWhen: "the result is written down and the next action is obvious."
+      };
     }
 
     function exportProgress() {

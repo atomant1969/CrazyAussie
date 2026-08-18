@@ -61,6 +61,55 @@
       margin: 24px 0;
     }
 
+    .hero-card {
+      display: grid;
+      gap: 14px;
+      padding: 22px;
+      background: var(--panel);
+      border: 2px solid var(--accent);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      margin: 24px 0 14px;
+    }
+
+    .hero-card h2 {
+      margin: 0;
+      font-size: clamp(1.4rem, 3vw, 2rem);
+    }
+
+    .first-action {
+      display: inline-block;
+      width: fit-content;
+      padding: 5px 9px;
+      border-radius: 6px;
+      background: #e8f3f1;
+      color: var(--accent);
+      font-weight: 800;
+      text-transform: uppercase;
+      font-size: 0.82rem;
+      letter-spacing: 0.05em;
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin: 14px 0 24px;
+    }
+
+    .step {
+      padding: 15px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    .step strong {
+      display: block;
+      margin-bottom: 6px;
+    }
+
     .card {
       display: grid;
       gap: 9px;
@@ -70,6 +119,19 @@
       border: 1px solid var(--line);
       border-radius: 8px;
       box-shadow: var(--shadow);
+    }
+
+    .card.secondary-card {
+      min-height: 130px;
+    }
+
+    .section-title {
+      margin: 28px 0 8px;
+      font-size: 1rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-weight: 800;
     }
 
     .card h2 {
@@ -102,6 +164,12 @@
       font-weight: 700;
     }
 
+    a.button.large {
+      min-height: 48px;
+      padding: 11px 16px;
+      font-size: 1.05rem;
+    }
+
     a.secondary {
       background: white;
       color: var(--accent);
@@ -127,7 +195,8 @@
     }
 
     @media (max-width: 760px) {
-      .grid {
+      .grid,
+      .steps {
         grid-template-columns: 1fr;
       }
     }
@@ -137,32 +206,45 @@
   <main>
     <header>
       <h1>The Crazy Aussie in Siberia Project</h1>
-      <p>Start here if you downloaded the project from GitHub and want to use it without setting up any software.</p>
+      <p>A planning system for building the channel from beginner YouTube tutorials into the Siberian homestead documentary.</p>
     </header>
 
-    <div class="note">
-      <strong>Best starting point:</strong> open this file in a browser, then use the links below. Markdown files are project documents; the checklist app is the practical saved-progress tool.
-    </div>
+    <section class="hero-card" aria-label="Start here">
+      <span class="first-action">Do this first</span>
+      <h2>Open the Interactive Checklist</h2>
+      <p>This is the working control panel. Start at Phase 0, Task 1, then mark each task as Not Started, In Progress, or Completed. Your progress and notes save in this browser.</p>
+      <div class="actions">
+        <a class="button large" href="CHECKLIST_APP.html">1. Open Interactive Checklist</a>
+        <a class="button large secondary" href="HOW_TO_USE.md">How To Use This Project</a>
+      </div>
+    </section>
 
+    <section class="steps" aria-label="Recommended first steps">
+      <article class="step">
+        <strong>1. Work The Checklist</strong>
+        <p>Open the interactive checklist and start with Phase 0. This is the daily working view.</p>
+      </article>
+      <article class="step">
+        <strong>2. Read Only When Needed</strong>
+        <p>Use the plan, roadmap, and curriculum docs when a checklist task asks for them.</p>
+      </article>
+      <article class="step">
+        <strong>3. Script One Video At A Time</strong>
+        <p>Start with Script 001, then build the next tutorial in sequence.</p>
+      </article>
+    </section>
+
+    <h2 class="section-title">Reference Documents</h2>
     <section class="grid" aria-label="Main project links">
-      <article class="card">
+      <article class="card secondary-card">
         <h2>Project Index</h2>
-        <p>The root map of the whole project. Use this to understand how all documents are connected.</p>
+        <p>The document map. Use this when you want to understand how the whole planning system is connected.</p>
         <div class="actions">
           <a class="button" href="Index.md">Open Index.md</a>
         </div>
       </article>
 
-      <article class="card">
-        <h2>Interactive Checklist</h2>
-        <p>The working checklist. It saves checked items, notes, collapsed sections, and scroll position in your browser.</p>
-        <div class="actions">
-          <a class="button" href="CHECKLIST_APP.html">Open Checklist App</a>
-          <a class="button secondary" href="CHECKLIST.md">Checklist Reference</a>
-        </div>
-      </article>
-
-      <article class="card">
+      <article class="card secondary-card">
         <h2>Project Plan</h2>
         <p>The main strategy document for the channel, launch phases, content pillars, transition, and monetization plan.</p>
         <div class="actions">
@@ -170,7 +252,7 @@
         </div>
       </article>
 
-      <article class="card">
+      <article class="card secondary-card">
         <h2>Beginner Curriculum</h2>
         <p>The detailed teaching path from Android phone to recording, editing, uploading, publishing, and analytics.</p>
         <div class="actions">
@@ -178,11 +260,27 @@
         </div>
       </article>
 
-      <article class="card">
+      <article class="card secondary-card">
         <h2>Channel Planning</h2>
         <p>Turn this planning process into tutorials that teach new YouTubers how to design their own channel project.</p>
         <div class="actions">
           <a class="button" href="CHANNEL_PLANNING_CURRICULUM.md">Open Planning Curriculum</a>
+        </div>
+      </article>
+
+      <article class="card secondary-card">
+        <h2>Script 001</h2>
+        <p>The first full spoken tutorial script: starting YouTube with only an Android phone.</p>
+        <div class="actions">
+          <a class="button" href="SCRIPTS/001-start-youtube-with-android-phone.md">Open Script 001</a>
+        </div>
+      </article>
+
+      <article class="card secondary-card">
+        <h2>Checklist Reference</h2>
+        <p>The Markdown checklist. Use this as reference; use the interactive checklist for saved progress.</p>
+        <div class="actions">
+          <a class="button secondary" href="CHECKLIST.md">Open Checklist Reference</a>
         </div>
       </article>
     </section>

@@ -14,7 +14,7 @@ The first business objective is to earn **$20,000 USD total creator revenue** so
 
 The strategic subscriber target before the full transition is **50,000 subscribers**, ideally within **3 months**. This is aggressive, so the launch must be focused on searchable, useful, repeatable lead-generation content that can also support revenue through YPP, MCN payouts, affiliates, sponsorships, digital products, or other trust-safe income.
 
-Growth should not rely on uploads alone. Each major video needs a viral packaging check and a distribution plan across YouTube Shorts, X.com, Pinterest, Facebook, and any other platform that can bring useful viewers back to the channel.
+Growth should not rely on uploads alone. Each major video needs a viral packaging check and a distribution plan across YouTube Shorts, TikTok, X.com, Pinterest, Facebook, and any other platform that can bring useful viewers back to the channel.
 
 ## Core Channel Identity
 
@@ -251,7 +251,7 @@ Examples:
 
 * How to make a YouTube video more shareable.
 * How to write a stronger first 15 seconds.
-* How to turn one tutorial into Shorts, X posts, Pinterest pins, and Facebook posts.
+* How to turn one tutorial into Shorts, TikToks, X posts, Pinterest pins, and Facebook posts.
 * How to promote a YouTube video without being annoying.
 * How to track external traffic sources in YouTube Studio.
 * How to test viral hooks with Shorts.
@@ -292,7 +292,7 @@ Publish consistently, test the editing tutorial/review audience, establish the S
 
 * 10-minute editing tutorial/review videos where useful.
 * About 2 Shorts per week to start.
-* X.com, Pinterest, and Facebook repurposing where useful.
+* TikTok, X.com, Pinterest, and Facebook repurposing where useful.
 * 1 community post per week once available.
 
 ### First 12 Long-Form Videos

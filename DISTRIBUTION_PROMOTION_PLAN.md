@@ -18,9 +18,10 @@ For every main YouTube video:
 2. Create 2-5 YouTube Shorts from the strongest moments.
 3. Write one short text post for X.
 4. Create one visual pin for Pinterest where the topic is searchable or evergreen.
-5. Create one Facebook post or Reel where the topic fits.
-6. Save viewer questions and comments as future video ideas.
-7. Track which platform sends useful viewers back to YouTube.
+5. Create one TikTok clip where the topic has a strong short-form hook.
+6. Create one Facebook post or Reel where the topic fits.
+7. Save viewer questions and comments as future video ideas.
+8. Track which platform sends useful viewers back to YouTube.
 
 ## Platform Roles
 
@@ -113,6 +114,31 @@ Avoid:
 * Reposting the same text everywhere.
 * Turning every post into a sales pitch.
 
+### TikTok
+
+Best for:
+
+* Fast hook testing.
+* Short tutorial clips.
+* Before/after edits.
+* Creator mistakes.
+* Public challenge updates.
+* Human moments from the Siberian project.
+
+Good TikTok approach:
+
+* Open with the problem in the first second.
+* Keep the clip focused on one idea.
+* Use captions that are readable without sound.
+* Recut the clip for TikTok instead of only reposting a YouTube Short unchanged.
+* Point viewers to the full YouTube video only when the longer video genuinely expands the lesson.
+
+Avoid:
+
+* Posting clips that attract the wrong audience.
+* Overusing trends that do not fit the channel.
+* Turning the channel into random entertainment if the main goal is trust, subscribers, and the land fund.
+
 ### Other Useful Channels
 
 Consider later:
@@ -132,6 +158,7 @@ From one 10-minute tutorial:
 * 1 X post.
 * 1 X thread if the topic is detailed.
 * 1 Pinterest checklist pin.
+* 1 TikTok clip.
 * 1 Facebook post or Reel.
 * 1 future FAQ idea from comments.
 * 1 update in the content tracker.
@@ -144,6 +171,7 @@ Minimum:
 * 2 Shorts.
 * 2 X posts.
 * 1 Pinterest pin.
+* 1 TikTok clip.
 * 1 Facebook post where appropriate.
 
 Stretch:
@@ -152,6 +180,7 @@ Stretch:
 * 3-5 Shorts.
 * 4-7 X posts.
 * 2 Pinterest pins.
+* 2-3 TikTok clips.
 * 2 Facebook posts or Reels.
 
 ## Promotion Checklist
@@ -162,6 +191,7 @@ Use this after each upload:
 - [ ] Post one practical lesson on X.
 - [ ] Post one channel-building-in-public update when relevant.
 - [ ] Create a Pinterest checklist or visual summary when the topic is evergreen.
+- [ ] Create a TikTok clip from the strongest short-form moment.
 - [ ] Share to Facebook only where it is useful and allowed.
 - [ ] Save comments and replies as future video ideas.
 - [ ] Record traffic/referral results after 7 days.
@@ -176,6 +206,7 @@ Track:
 * External traffic sources in YouTube Studio.
 * X replies, reposts, profile clicks, and link clicks where available.
 * Pinterest outbound clicks.
+* TikTok views, retention, profile clicks, comments, and followers.
 * Facebook comments, shares, and clicks where available.
 * Which posts create useful viewer questions.
 

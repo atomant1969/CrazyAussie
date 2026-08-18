@@ -75,7 +75,7 @@ The bridge is important: mention the larger Siberian project naturally, but do n
 
 * **Main video**: 1 tutorial/review per week minimum.
 * **Shorts**: About 2 per week to start.
-* **Promotion**: Repurpose each main video into Shorts, X.com posts, Pinterest pins, and Facebook posts where appropriate.
+* **Promotion**: Repurpose each main video into Shorts, TikTok clips, X.com posts, Pinterest pins, and Facebook posts where appropriate.
 * **Community post**: 1 poll or question per week.
 * **Monthly review**: Pick the best-performing topic and turn it into a series.
 

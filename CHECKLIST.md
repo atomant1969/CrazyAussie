@@ -65,7 +65,7 @@ Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md
 - [ ] Draft channel-building video: The $20,000 Land Fund Behind This Channel.
 - [ ] Draft growth tutorial: How to Make a YouTube Video More Shareable.
 - [ ] Draft growth tutorial: How to Promote a YouTube Video Without Spamming.
-- [ ] Draft growth tutorial: How to Turn One Tutorial Into Shorts, X Posts, Pinterest Pins, and Facebook Posts.
+- [ ] Draft growth tutorial: How to Turn One Tutorial Into Shorts, TikToks, X Posts, Pinterest Pins, and Facebook Posts.
 - [ ] Review `MICRO_TIPS_AND_SCRIPT_INSERTS.md` before recording each beginner tutorial.
 
 ## Phase 2: Production Workflow
@@ -80,6 +80,7 @@ Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md
 - [ ] Create description template.
 - [ ] Create pinned comment template.
 - [ ] Create Shorts cutdown process.
+- [ ] Create TikTok clip template.
 - [ ] Create X.com post template.
 - [ ] Create Pinterest pin template.
 - [ ] Create Facebook post/Reel template.

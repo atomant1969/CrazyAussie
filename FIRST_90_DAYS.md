@@ -22,7 +22,7 @@ This is an aggressive target. The plan should be treated as a high-output testin
 * Track the land fund separately from subscribers.
 * Mention the $20,000 USD land target honestly in channel-building-in-public videos, without making every tutorial feel like a fundraising pitch.
 * Give every main video a viral packaging check before recording.
-* Repurpose each useful video into Shorts and platform-specific posts for X.com, Pinterest, and Facebook where appropriate.
+* Repurpose each useful video into Shorts and platform-specific posts for TikTok, X.com, Pinterest, and Facebook where appropriate.
 * Use the Siberian project as identity and future direction, not as the main topic before footage exists.
 * Keep exact location, family/private life, politics, sanctions, and banking details out of public videos.
 * Use English only for now.
@@ -43,7 +43,7 @@ Stretch:
 * 2 tutorial or review videos.
 * 3-5 Shorts.
 * 1 channel-building update.
-* 3-7 off-platform posts across X.com, Pinterest, and Facebook.
+* 3-7 off-platform posts across TikTok, X.com, Pinterest, and Facebook.
 
 ## Month 1: Prove The Lead-Gen Topic
 
@@ -104,7 +104,7 @@ Move from recording and transfer basics into editing reviews and first-edit tuto
 
 * Are reviews or tutorials performing better?
 * Are Shorts bringing viewers to long videos?
-* Are X.com, Pinterest, or Facebook bringing useful viewers?
+* Are TikTok, X.com, Pinterest, or Facebook bringing useful viewers?
 * Are people asking about software, YouTube growth, or Siberia?
 * Should the next month focus more on one app?
 
@@ -184,6 +184,7 @@ Use [Distribution And Promotion Plan](DISTRIBUTION_PROMOTION_PLAN.md) after ever
 Track:
 
 * Shorts created from each main video.
+* TikTok clips created from each main video.
 * X.com posts or threads created.
 * Pinterest pins created for evergreen topics.
 * Facebook posts or Reels created where appropriate.

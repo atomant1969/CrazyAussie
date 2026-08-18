@@ -13,7 +13,7 @@ The channel should not feel like a generic editing channel. Each video should gr
 Every major video should also pass through:
 
 * [Viral Video Strategy](VIRAL_VIDEO_STRATEGY.md): hook, tension, title, thumbnail, and shareability check.
-* [Distribution And Promotion Plan](DISTRIBUTION_PROMOTION_PLAN.md): Shorts, X.com, Pinterest, Facebook, and external promotion workflow.
+* [Distribution And Promotion Plan](DISTRIBUTION_PROMOTION_PLAN.md): Shorts, TikTok, X.com, Pinterest, Facebook, and external promotion workflow.
 
 ## Phase 1: Absolute Beginner YouTube Setup
 
@@ -203,10 +203,11 @@ Goal: Teach creators how to make stronger videos while using the channel's own g
 4. How to Test Viral Hooks With Shorts
 5. How to Promote a YouTube Video Without Spamming
 6. How to Use X.com to Build a YouTube Channel in Public
-7. How to Use Pinterest for Evergreen YouTube Tutorials
-8. How to Use Facebook Groups Without Annoying Everyone
-9. How to Track External Traffic in YouTube Studio
-10. Which Videos Helped Move the $20,000 Land Fund?
+7. How to Use TikTok to Promote a YouTube Channel
+8. How to Use Pinterest for Evergreen YouTube Tutorials
+9. How to Use Facebook Groups Without Annoying Everyone
+10. How to Track External Traffic in YouTube Studio
+11. Which Videos Helped Move the $20,000 Land Fund?
 
 ## Selectable Follow-On Ideas
 
@@ -304,9 +305,10 @@ Mark the ideas that feel useful after the editing tutorials are complete.
 - [ ] How to write a strong viral hook without clickbait.
 - [ ] How to find the tension inside a video idea.
 - [ ] How to test video ideas with Shorts before making the long video.
-- [ ] How to turn one tutorial into Shorts, X posts, Pinterest pins, and Facebook posts.
+- [ ] How to turn one tutorial into Shorts, TikToks, X posts, Pinterest pins, and Facebook posts.
 - [ ] How to promote a YouTube video without spamming.
 - [ ] How to use X.com to build in public.
+- [ ] How to use TikTok to promote a YouTube channel.
 - [ ] How to use Pinterest for evergreen tutorial traffic.
 - [ ] How to share YouTube videos in Facebook groups respectfully.
 - [ ] How to track whether external promotion actually works.

@@ -2,7 +2,7 @@
 
 Parent: [Full Project Plan](PROJECT_PLAN.md)
 
-Children: [Beginner Curriculum](BEGINNER_YOUTUBE_CURRICULUM.md) | [Video Structure](VIDEO_STRUCTURE.md) | [Upload Checklist](UPLOAD_CHECKLIST.md) | [Ideas Pipeline](ideas.md)
+Children: [Beginner Curriculum](BEGINNER_YOUTUBE_CURRICULUM.md) | [Channel Planning Curriculum](CHANNEL_PLANNING_CURRICULUM.md) | [Micro Tips And Script Inserts](MICRO_TIPS_AND_SCRIPT_INSERTS.md) | [Video Structure](VIDEO_STRUCTURE.md) | [Upload Checklist](UPLOAD_CHECKLIST.md) | [Ideas Pipeline](ideas.md)
 
 ## Launch Strategy
 
@@ -16,7 +16,7 @@ Goal: Start from zero and help people understand the basic path from phone to pu
 
 ### Foundation Series
 
-1. How to Start YouTubing With Only an Android Phone
+1. [How to Start YouTubing With Only an Android Phone](SCRIPTS/001-start-youtube-with-android-phone.md)
 2. Minimum Android Phone Specs for Recording YouTube Videos
 3. How to Set Up Your Android Phone Before Recording
 4. How to Record Your First YouTube Video on Android
@@ -26,6 +26,14 @@ Goal: Start from zero and help people understand the basic path from phone to pu
 8. How to Organize Phone Footage on Your PC
 9. How to Check Your Footage Before Editing
 10. Your First YouTube Workflow: Phone to PC to Edit to Upload
+
+### Drafted Scripts
+
+* [001: How to Start YouTubing With Only an Android Phone](SCRIPTS/001-start-youtube-with-android-phone.md)
+
+Script helpers:
+
+* [Micro Tips And Script Inserts](MICRO_TIPS_AND_SCRIPT_INSERTS.md)
 
 ### Minimum Android Phone Specs
 
@@ -129,6 +137,19 @@ Goal: Teach YouTube while openly documenting the growth of this channel.
 7. What I Need Before I Can Film the Land Build Properly
 8. How I Will Transition From Tutorials to Siberian Build Videos
 
+### Channel Planning Series
+
+1. Plan Your YouTube Channel Before You Upload
+2. Write Your Channel Promise in One Sentence
+3. Choose Your Starting Audience and Future Audience
+4. Build Your Content Pillars
+5. Plan Your First 10 Videos
+6. Build a YouTube Channel Checklist
+7. Create a Project Index for Your Channel Plan
+8. Plan Monetization Without Rushing
+9. Choose Direct AdSense Or MCN
+10. Turn Your Channel Plan Into Content
+
 ## Phase 6: Siberia Bridge
 
 Goal: Make the audience care about the larger project before the first build episode.
@@ -187,6 +208,12 @@ Mark the ideas that feel useful after the editing tutorials are complete.
 
 ### Planning And Scripting
 
+- [ ] How to plan a full YouTube channel project.
+- [ ] How to create a channel project index.
+- [ ] How to structure channel planning documents.
+- [ ] How to build a usable channel checklist.
+- [ ] How to choose direct AdSense or MCN as part of a channel plan.
+- [ ] How to turn the planning process into tutorial content.
 - [ ] How to plan your first 10 videos.
 - [ ] How to write a simple video script.
 - [ ] How to write a bullet-point script instead of reading word-for-word.
@@ -314,4 +341,4 @@ Mark the ideas that feel useful after the editing tutorials are complete.
 
 ---
 
-[Parent: Full Project Plan](PROJECT_PLAN.md) | [Beginner Curriculum](BEGINNER_YOUTUBE_CURRICULUM.md) | [Video Structure](VIDEO_STRUCTURE.md) | [Upload Checklist](UPLOAD_CHECKLIST.md) | [Ideas Pipeline](ideas.md)
+[Parent: Full Project Plan](PROJECT_PLAN.md) | [Beginner Curriculum](BEGINNER_YOUTUBE_CURRICULUM.md) | [Channel Planning Curriculum](CHANNEL_PLANNING_CURRICULUM.md) | [Micro Tips And Script Inserts](MICRO_TIPS_AND_SCRIPT_INSERTS.md) | [Video Structure](VIDEO_STRUCTURE.md) | [Upload Checklist](UPLOAD_CHECKLIST.md) | [Ideas Pipeline](ideas.md)

@@ -2,6 +2,10 @@
 
 Parent: [Index](Index.md)
 
+Tool: [Interactive Checklist](CHECKLIST_APP.html)
+
+Use this Markdown file as the checklist reference. Use the interactive checklist tool when you want checked items and notes to survive refreshes.
+
 Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md) | [Upload Checklist](UPLOAD_CHECKLIST.md)
 
 ## Phase 0: Foundation
@@ -30,7 +34,7 @@ Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md
 
 ## Phase 1: First Editing Lead-Generation Videos
 
-- [ ] Draft Video 1: How to Start YouTubing With Only an Android Phone.
+- [x] Draft Video 1: How to Start YouTubing With Only an Android Phone.
 - [ ] Draft Video 2: Minimum Android Phone Specs for Recording YouTube Videos.
 - [ ] Draft Video 3: How to Set Up Your Android Phone Before Recording.
 - [ ] Draft Video 4: How to Record Your First YouTube Video on Android.
@@ -44,6 +48,11 @@ Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md
 - [ ] Draft Video 12: How to Make a Short From a Long Video.
 - [ ] Draft Video 13: My 3-Month Plan to Reach 50k Subscribers.
 - [ ] Draft Video 14: Why This Channel Starts With YouTube Basics Before the Siberian Build.
+- [ ] Draft planning tutorial: Plan Your YouTube Channel Before You Upload.
+- [ ] Draft planning tutorial: Build a YouTube Channel Checklist.
+- [ ] Draft planning tutorial: Create a Project Index for Your Channel Plan.
+- [ ] Draft planning tutorial: Choose Direct AdSense Or MCN.
+- [ ] Review `MICRO_TIPS_AND_SCRIPT_INSERTS.md` before recording each beginner tutorial.
 
 ## Phase 2: Production Workflow
 

@@ -205,6 +205,20 @@ Examples:
 * Public vs private vs unlisted vs scheduled.
 * How to check a video after publishing.
 
+### Content Pillar 1B: Channel Planning Education
+
+Purpose: Teach new YouTubers how to plan a channel as a project, using this project's creation as the live example.
+
+Examples:
+
+* How to write a channel promise.
+* How to choose a starting audience and future audience.
+* How to create content pillars.
+* How to build a video roadmap.
+* How to create a channel checklist.
+* How to make an index for planning documents.
+* How to turn the planning process itself into useful video lessons.
+
 ### Content Pillar 2: Channel Building in Public
 
 Purpose: Let viewers follow the channel formation process.

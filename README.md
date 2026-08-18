@@ -4,6 +4,8 @@ Parent: [Index](Index.md)
 
 Next: [Full Project Plan](PROJECT_PLAN.md)
 
+Local browser start: [START_HERE.html](START_HERE.html)
+
 ## YouTube Channel Project Plan
 
 The Crazy Aussie in Siberia is a YouTube channel project that starts with editing software reviews and tutorials for new YouTubers, then gradually transitions into the long-term documentary story: an Australian building a life and homestead in Siberia.
@@ -13,6 +15,7 @@ Use [Index.md](Index.md) as the main navigation page.
 ## Project Documents
 
 * [Full Project Plan](PROJECT_PLAN.md)
+* [How To Use This Project](HOW_TO_USE.md)
 * [Working Checklist](CHECKLIST.md)
 
 ### Channel Positioning

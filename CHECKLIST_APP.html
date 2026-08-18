@@ -326,6 +326,15 @@
       color: #5c5141;
     }
 
+    .guide-meta {
+      display: grid;
+      gap: 3px;
+      padding: 8px 10px;
+      border-radius: 6px;
+      background: #fffdf8;
+      border: 1px solid #f0e4d0;
+    }
+
     textarea {
       width: 100%;
       min-height: 38px;
@@ -852,22 +861,109 @@
       summary.textContent = "How to do this";
       const body = document.createElement("div");
       body.className = "task-guide-body";
+      if (guide.need) {
+        const need = document.createElement("p");
+        need.className = "guide-meta";
+        need.innerHTML = `<strong>You need:</strong> ${escapeHtml(guide.need)}`;
+        body.append(need);
+      }
       const list = document.createElement("ol");
       guide.steps.forEach(step => {
         const item = document.createElement("li");
         item.textContent = step;
         list.append(item);
       });
+      body.append(list);
+      if (guide.example) {
+        const example = document.createElement("p");
+        example.className = "guide-meta";
+        example.innerHTML = `<strong>Example:</strong> ${escapeHtml(guide.example)}`;
+        body.append(example);
+      }
       const done = document.createElement("p");
+      done.className = "guide-meta";
       done.innerHTML = `<strong>Done when:</strong> ${escapeHtml(guide.doneWhen)}`;
-      body.append(list, done);
+      body.append(done);
       details.append(summary, body);
       return details;
     }
 
     function guideForTask(task) {
       const exact = {
+        "Confirm final channel name spelling.": {
+          need: "a notes file or the notes box for this task.",
+          steps: [
+            "Write the working name exactly as it should appear on YouTube.",
+            "Check capitalization: decide between The Crazy Aussie in Siberia, Crazy Aussie in Siberia, or another exact spelling.",
+            "Say the name out loud once and make sure it is easy to speak in video intros.",
+            "Search YouTube quickly for the exact name to see if another channel already uses something too similar.",
+            "Write the final spelling in the notes box."
+          ],
+          example: "Final name for now: The Crazy Aussie in Siberia.",
+          doneWhen: "one exact channel name spelling is written and can be copied into YouTube."
+        },
+        "Write one-sentence channel description.": {
+          need: "one plain sentence that explains who the channel helps and where it is going.",
+          steps: [
+            "Start the sentence with the channel name or 'This channel'.",
+            "Say who the first videos help: beginner YouTubers.",
+            "Say what they learn: recording, editing, uploading, growth, and monetization.",
+            "Add the long-term story: funding and documenting an off-grid Siberian homestead.",
+            "Keep it under 30 words and paste it into the notes box."
+          ],
+          example: "The Crazy Aussie in Siberia helps beginner YouTubers make better videos while building toward a real off-grid Siberian homestead project.",
+          doneWhen: "one sentence is saved and short enough to use in the channel About page or video intro."
+        },
+        "Write 100-word About page copy.": {
+          need: "the one-sentence channel description and a notes area.",
+          steps: [
+            "Write paragraph 1: who you are and what the channel teaches first.",
+            "Write paragraph 2: explain the $20,000 land fund and Siberian homestead direction.",
+            "Write paragraph 3: tell viewers what to watch next.",
+            "Remove private details: exact location, family/private banking details, politics, and anything unsafe.",
+            "Count roughly 80-120 words and save the final version."
+          ],
+          example: "Start with: 'I am an Australian in Siberia, building this channel from the ground up...'",
+          doneWhen: "the About copy is saved, privacy-safe, and ready to paste into YouTube."
+        },
+        "Create channel banner concept.": {
+          need: "a simple sketch, design note, or Canva/graphics file.",
+          steps: [
+            "Write the banner message in 5-8 words.",
+            "Choose 2-3 visual elements: Australian identity, Siberia, YouTube creation, land/build project.",
+            "Decide the text that must remain readable on mobile.",
+            "Sketch it on paper or make a rough digital layout.",
+            "Save the concept as a note or image file."
+          ],
+          example: "Text: 'YouTube Skills to Siberian Land'. Visuals: face/photo, snowy/forest background, small camera icon.",
+          doneWhen: "there is a rough banner plan that a designer or future you can turn into a finished banner."
+        },
+        "Create profile image concept.": {
+          need: "one idea for the channel avatar.",
+          steps: [
+            "Decide whether the profile image will be your face, initials, or a simple brand mark.",
+            "Check that it will still be recognizable as a tiny circle.",
+            "Avoid tiny text because it will not be readable.",
+            "Choose background and contrast colors.",
+            "Save the concept in the notes box."
+          ],
+          example: "Close face photo, high contrast, simple cold/outdoor background, no small text.",
+          doneWhen: "the profile image direction is clear enough to create or photograph."
+        },
+        "Decide whether Shorts or 10-minute tutorials are the primary launch format.": {
+          need: "the first 90-day plan and a realistic estimate of your recording/editing time.",
+          steps: [
+            "Write the two options: Shorts-led or 10-minute tutorial-led.",
+            "Choose the primary format for the next 30 days only.",
+            "Set the minimum weekly output for that choice.",
+            "Write what metric will decide whether the choice is working: subscribers, watch hours, comments, or retention.",
+            "Save the decision and review date."
+          ],
+          example: "Primary for first 30 days: 10-minute tutorials, supported by 2 Shorts per week.",
+          doneWhen: "one format is chosen for the next 30 days and the review metric is written."
+        },
         "Confirm Android phone recording workflow.": {
+          need: "your Android phone, a quiet filming spot, enough storage, and one test subject: yourself or a simple object.",
           steps: [
             "Open the phone Camera app.",
             "Set video quality to 1080p at 30 fps, or the closest available setting.",
@@ -876,9 +972,11 @@
             "Play it back on the phone and check that the picture, sound, and framing are usable.",
             "Write down the phone model, video setting, and any problem you noticed."
           ],
+          example: "Phone: Samsung A-series. Setting: 1080p/30fps. Problem: room echo. Fix: record closer to phone.",
           doneWhen: "you have one usable phone test clip and a short note saying which phone/settings will be used."
         },
         "Define minimum Android phone specs for beginner YouTubers.": {
+          need: "Beginner YouTube Curriculum and one clear beginner-friendly checklist.",
           steps: [
             "Open Beginner YouTube Curriculum.",
             "Find the section about minimum Android phone specs.",
@@ -886,9 +984,47 @@
             "Write the preferred specs separately: 60 fps, 128 GB storage, USB-C, and stable focus/exposure.",
             "Turn the list into a simple beginner-friendly checklist."
           ],
+          example: "Minimum: 1080p, 30fps, 64GB storage, working microphone, USB file transfer.",
           doneWhen: "the specs are written clearly enough that a beginner can check their own phone without asking you."
         },
+        "Choose first editing software to review.": {
+          need: "a list of candidate editing programs and the beginner audience in mind.",
+          steps: [
+            "List 5 possible tools: CapCut Desktop, DaVinci Resolve, Clipchamp, Shotcut, and Kdenlive.",
+            "Remove any tool you cannot install, open, or test this week.",
+            "Pick the one most useful for a complete beginner with a normal PC.",
+            "Write why it is first.",
+            "Write the first review title."
+          ],
+          example: "First review: CapCut Desktop, because it is easier for beginners than Resolve and can make Shorts.",
+          doneWhen: "one editing program is chosen and the first review title is written."
+        },
+        "Choose first 5 editing apps/software tools to test.": {
+          need: "five tools you can realistically install or access.",
+          steps: [
+            "Write a numbered list from 1 to 5.",
+            "Include at least one easy editor, one powerful editor, one built-in/simple editor, and one open-source option.",
+            "Check that each option has a realistic beginner use case.",
+            "Write the main question each review will answer.",
+            "Save the list."
+          ],
+          example: "1 CapCut, 2 DaVinci Resolve, 3 Clipchamp, 4 Shotcut, 5 Kdenlive.",
+          doneWhen: "five tools are listed with a reason for testing each one."
+        },
+        "Choose primary microphone setup if speaking to camera.": {
+          need: "your available phone microphone, headset, lav mic, USB mic, or other audio option.",
+          steps: [
+            "Record 10 seconds with the phone microphone.",
+            "Record 10 seconds with any external microphone you have.",
+            "Listen with headphones.",
+            "Choose the setup with the clearest voice and least echo.",
+            "Write the chosen setup and backup setup."
+          ],
+          example: "Primary: wired lav into phone. Backup: phone mic within arm's length in a quiet room.",
+          doneWhen: "one microphone setup is selected and tested with a short audio clip."
+        },
         "Confirm Android-to-PC transfer method.": {
+          need: "Android phone, USB cable, Windows PC, and one test video.",
           steps: [
             "Connect the Android phone to the PC with a USB cable.",
             "Unlock the phone and choose File Transfer if Android asks.",
@@ -896,9 +1032,11 @@
             "Copy one test video from the DCIM or Camera folder to the project footage folder.",
             "Open the copied file on the PC and confirm it plays."
           ],
+          example: "Phone > Internal Storage > DCIM > Camera > copy VID_001.mp4 to 01_Raw_Footage/Video_001.",
           doneWhen: "one test video has been copied from phone to PC and plays correctly from the PC folder."
         },
         "Confirm computer editing workflow.": {
+          need: "one test video file and one editing program.",
           steps: [
             "Choose the computer you will edit on.",
             "Install or open the first editing program you plan to test.",
@@ -907,9 +1045,11 @@
             "Export the result as a test video.",
             "Play the exported file and check that picture and sound work."
           ],
+          example: "Import test clip, cut out 5 seconds of silence, export as Video_001_test_export.mp4.",
           doneWhen: "you have imported, cut, exported, and played one test edit successfully."
         },
         "Create folder structure for raw footage, edits, thumbnails, and exports.": {
+          need: "File Explorer and a main project folder.",
           steps: [
             "Create one main folder for the channel.",
             "Inside it, create folders named 01_Raw_Footage, 02_Project_Files, 03_Thumbnails, 04_Exports, and 05_Notes.",
@@ -917,9 +1057,71 @@
             "Move or copy the test clip into 01_Raw_Footage/Video_001.",
             "Write the folder structure into your notes so it can be taught in a tutorial."
           ],
+          example: "CrazyAussieVideos/01_Raw_Footage/Video_001/test_clip.mp4.",
           doneWhen: "the folders exist and Video 001 has a place for raw footage, edit files, thumbnails, exports, and notes."
         },
+        "Create a reusable editing review template.": {
+          need: "html/script_template.html or a new notes file.",
+          steps: [
+            "Write the review sections: who it is for, cost, beginner difficulty, best feature, biggest problem, export workflow, final recommendation.",
+            "Add a place for screen recordings and example project footage.",
+            "Add a place for final verdict: use it, avoid it, or use it only for certain videos.",
+            "Add a short Siberian/channel bridge line.",
+            "Save it as the template for future software reviews."
+          ],
+          example: "Verdict line: 'Use this if you need fast beginner edits; avoid it if your PC struggles with it.'",
+          doneWhen: "the template exists and can be reused for the first five editing software reviews."
+        },
+        "Create a reusable tutorial outline template.": {
+          need: "a notes file or HTML page section for tutorial planning.",
+          steps: [
+            "Write the beginner problem at the top.",
+            "Write the result the viewer will have by the end.",
+            "Add numbered teaching steps.",
+            "Add one common mistake and one fix.",
+            "Add the next video the viewer should watch."
+          ],
+          example: "Problem: viewer cannot move phone files to PC. Result: one video copied and organized.",
+          doneWhen: "the outline can be copied and filled in for any beginner tutorial."
+        },
+        "Create a reusable upload checklist.": {
+          need: "html/UPLOAD_CHECKLIST.html and one test video workflow.",
+          steps: [
+            "Open Upload Checklist.",
+            "Copy the main upload stages into your working notes: file, title, thumbnail, description, visibility, checks, publish.",
+            "Add any extra steps you personally need, such as checking audio or saving the thumbnail source file.",
+            "Put the checklist where you will see it before every upload.",
+            "Use it once on a test or private upload."
+          ],
+          example: "Before Publish: title checked, thumbnail checked on mobile, description link checked, visibility selected.",
+          doneWhen: "you have one upload checklist that you can follow without remembering the steps."
+        },
+        "Create a simple analytics tracker.": {
+          need: "a spreadsheet or notes table.",
+          steps: [
+            "Create columns: video title, publish date, views, impressions, CTR, average view duration, subscribers gained, comments, traffic source, next action.",
+            "Add rows for the first 12 planned videos.",
+            "Leave blank cells for future numbers.",
+            "Add a review column for 24 hours and 7 days.",
+            "Save the tracker somewhere obvious."
+          ],
+          example: "Video 001 | date | 24h views | 7d views | CTR | retention | subs | lesson learned.",
+          doneWhen: "the tracker exists and has empty rows ready for the first videos."
+        },
+        "Create a $20,000 USD land fund tracker.": {
+          need: "a spreadsheet or notes table plus the Funding Plan.",
+          steps: [
+            "Create columns: date, source, gross amount, fees/tax estimate, net amount, amount reserved for land, total saved, gap to $20,000.",
+            "Start the total saved at zero unless money is already reserved.",
+            "Add rows for YouTube revenue, affiliates, sponsors, digital products, donations, or other creator revenue.",
+            "Add a formula or manual line for 20000 minus total saved.",
+            "Save the tracker and link it in your notes."
+          ],
+          example: "Total saved: $0. Gap to target: $20,000.",
+          doneWhen: "you can enter any future income and immediately see the remaining gap to $20,000."
+        },
         "Publish first video.": {
+          need: "exported video file, thumbnail, title, description, and YouTube Studio access.",
           steps: [
             "Open YouTube Studio.",
             "Upload the exported video file.",
@@ -928,9 +1130,11 @@
             "Publish or schedule it.",
             "Open the public video page and confirm it looks correct."
           ],
+          example: "Upload Video_001_final.mp4, add thumbnail, set public or scheduled, then open the watch page.",
           doneWhen: "the first video is public or scheduled and you have checked the public video page."
         },
         "Promote first video using the distribution checklist.": {
+          need: "published YouTube video link and Distribution And Promotion Plan.",
           steps: [
             "Open Distribution And Promotion Plan.",
             "Create at least one Short from the strongest moment.",
@@ -939,6 +1143,7 @@
             "Create one Pinterest or Facebook post only if the topic fits.",
             "Record what you posted and where."
           ],
+          example: "Short: 'You do not need a camera to start YouTube.' X post: one lesson plus full video link.",
           doneWhen: "the first video has at least one useful external promotion item and one Short attached to it."
         }
       };
@@ -948,53 +1153,65 @@
       const cleanTask = task.replace(/\.$/, "");
       if (task.startsWith("Confirm ")) {
         return {
+          need: "the relevant account, device, file, or document named by the task.",
           steps: [
             `Find the thing named in this task: "${cleanTask.replace(/^Confirm /, "")}".`,
+            "Write the question: 'Can I actually use this, yes or no?'",
             "Do one small real-world test instead of only thinking about it.",
-            "Write down what worked, what failed, and what you will use going forward.",
-            "If the result affects a lesson, add the result to the relevant HTML document."
+            "Write the result in this format: Tested / Works / Problem / Fix.",
+            "If it works, mark it Completed. If there is a problem, mark it In Progress and write the next fix."
           ],
+          example: "Tested USB transfer. Works. Problem: phone asked for permission. Fix: unlock phone and choose File Transfer.",
           doneWhen: "you have tested it, written the decision down, and know the next action."
         };
       }
       if (task.startsWith("Write ")) {
         return {
+          need: "a notes box, text file, or HTML document where the final wording will live.",
           steps: [
-            "Open a notes file or the relevant HTML document.",
-            "Write a rough version first; do not try to make it perfect.",
-            "Read it out loud once.",
-            "Shorten or simplify any sentence that sounds confusing.",
-            "Save the final wording."
+            "Open the notes box for this task.",
+            "Write the rough version in plain words first.",
+            "Read it out loud.",
+            "Delete any sentence that sounds clever but unclear.",
+            "Save the final version where you can copy it later."
           ],
+          example: "Rough first. Clean second. Saved final third.",
           doneWhen: "the wording exists, is saved, and can be copied into the channel or script."
         };
       }
       if (task.startsWith("Create ")) {
         return {
+          need: "a place to save the asset, such as the project folder, a spreadsheet, or an HTML document.",
           steps: [
             "Decide exactly what file, template, folder, tracker, or asset this task needs.",
-            "Make the simplest usable first version.",
+            "Name the file or asset before you start.",
+            "Make the simplest usable version first.",
             "Put it somewhere obvious in the project folder or browser docs.",
             "Add one example so you know how to use it later.",
             "Open it once and confirm it is usable."
           ],
+          example: "Asset name: Video Upload Checklist. First version: 10 steps. Saved in project notes.",
           doneWhen: "the item exists, has an example or clear purpose, and you can use it for the next video."
         };
       }
       if (task.startsWith("Decide ")) {
         return {
+          need: "the options, the reason for choosing, and a review date if the decision is temporary.",
           steps: [
             "Write the decision question in one sentence.",
             "List the realistic options.",
+            "Cross out options you cannot act on this week.",
             "Pick the safest option for the next 30 days.",
             "Write why you picked it.",
-            "Mark it as reversible or locked."
+            "Write either 'reversible' or 'locked for now'."
           ],
+          example: "Decision: long tutorials first. Reason: better watch hours. Review date: after 4 uploads.",
           doneWhen: "one option is chosen and the reason is written down."
         };
       }
       if (task.startsWith("Choose ")) {
         return {
+          need: "a short list of realistic options.",
           steps: [
             "List 3-5 possible options.",
             "Remove anything too expensive, too complicated, or irrelevant to beginners.",
@@ -1002,35 +1219,43 @@
             "Write why it was chosen.",
             "Write what would make you change your mind."
           ],
+          example: "Chosen: CapCut first. Change if: it cannot export cleanly or beginners find it confusing.",
           doneWhen: "one option is selected as the next test, with a short reason."
         };
       }
       if (task.startsWith("Draft ")) {
         return {
+          need: "the relevant curriculum page, roadmap page, or script template.",
           steps: [
             "Open the matching roadmap, curriculum, or script page.",
             "Write the video promise in one sentence.",
             "Write the first 15 seconds.",
             "List the main teaching points in order.",
-            "Add the ending: recap, next video, and soft channel bridge."
+            "Add the ending: recap, next video, and soft channel bridge.",
+            "Save the draft even if it is rough."
           ],
+          example: "Promise: by the end, the viewer can transfer one Android video to a PC.",
           doneWhen: "a rough script or bullet outline exists and could be recorded from."
         };
       }
       if (task.startsWith("Record ")) {
         return {
+          need: "the recording device, quiet space, and correct folder for saving the file.",
           steps: [
             "Prepare the phone, microphone, screen recorder, or camera.",
             "Record a short test first.",
             "Watch or listen to the test.",
             "Fix the biggest problem only.",
-            "Record the real version or another test if needed."
+            "Record the real version or another test if needed.",
+            "Move the file into the correct raw footage folder."
           ],
+          example: "File saved as 01_Raw_Footage/Video_001/talking_test_001.mp4.",
           doneWhen: "a usable recording exists in the correct raw footage folder."
         };
       }
       if (task.startsWith("Test ")) {
         return {
+          need: "one real sample file and the actual tool or workflow being tested.",
           steps: [
             "Do the smallest possible test of this workflow.",
             "Use a real sample file, not an imaginary example.",
@@ -1038,11 +1263,13 @@
             "Write down any problem and the fix.",
             "Repeat once if the first test failed."
           ],
+          example: "Test: copied one video, imported it into editor, exported 10 seconds.",
           doneWhen: "the workflow succeeds once and the steps are written down."
         };
       }
       if (task.startsWith("Review ")) {
         return {
+          need: "the relevant analytics page, published video, platform post, or project document.",
           steps: [
             "Open the relevant video, analytics page, checklist, or document.",
             "Look for one clear thing that worked.",
@@ -1050,11 +1277,13 @@
             "Write one improvement for the next upload.",
             "Turn any useful viewer question into a future video idea."
           ],
+          example: "Worked: title got clicks. Failed: first 30 seconds lost viewers. Next: shorten intro.",
           doneWhen: "one lesson and one next action are written down."
         };
       }
       if (task.startsWith("Reach ")) {
         return {
+          need: "YouTube Studio, the land fund tracker, or the relevant platform analytics.",
           steps: [
             "Check the current number in YouTube Studio or the funding tracker.",
             "Write the current number and date.",
@@ -1062,11 +1291,13 @@
             "If the target is reached, write what helped get there.",
             "Decide the next milestone."
           ],
+          example: "Current: 512 subscribers on 2026-09-14. Source: Android tutorial and Shorts.",
           doneWhen: "the target number is reached and recorded with the date."
         };
       }
       if (task.startsWith("Apply ")) {
         return {
+          need: "current eligibility requirements, payout route decision, identity/tax documents, and YouTube Studio.",
           steps: [
             "Check the latest eligibility requirements.",
             "Confirm the payout route is clear.",
@@ -1074,10 +1305,12 @@
             "Apply only when the account setup is legitimate and documentable.",
             "Save notes about the application date and result."
           ],
+          example: "Do not apply just because subscriber count is high; apply when payout setup is clear.",
           doneWhen: "the application is submitted safely or the reason for waiting is written down."
         };
       }
       return {
+        need: "the task name, the notes box, and one small next action.",
         steps: [
           "Restate the task in plain words.",
           "Find the document, tool, or account needed for the task.",
@@ -1085,6 +1318,7 @@
           "Write the result in the notes box.",
           "Set the status to In Progress or Completed."
         ],
+        example: "Plain words: find out what to do next. Action: open the linked document and write the first decision.",
         doneWhen: "the result is written down and the next action is obvious."
       };
     }

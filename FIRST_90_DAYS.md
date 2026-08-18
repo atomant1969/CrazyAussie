@@ -21,6 +21,8 @@ This is an aggressive target. The plan should be treated as a high-output testin
 * Keep videos useful for beginner YouTubers.
 * Track the land fund separately from subscribers.
 * Mention the $20,000 USD land target honestly in channel-building-in-public videos, without making every tutorial feel like a fundraising pitch.
+* Give every main video a viral packaging check before recording.
+* Repurpose each useful video into Shorts and platform-specific posts for X.com, Pinterest, and Facebook where appropriate.
 * Use the Siberian project as identity and future direction, not as the main topic before footage exists.
 * Keep exact location, family/private life, politics, sanctions, and banking details out of public videos.
 * Use English only for now.
@@ -34,12 +36,14 @@ Minimum:
 
 * 1 tutorial or review video.
 * 2 Shorts.
+* 1-2 off-platform promotional posts.
 
 Stretch:
 
 * 2 tutorial or review videos.
 * 3-5 Shorts.
 * 1 channel-building update.
+* 3-7 off-platform posts across X.com, Pinterest, and Facebook.
 
 ## Month 1: Prove The Lead-Gen Topic
 
@@ -100,6 +104,7 @@ Move from recording and transfer basics into editing reviews and first-edit tuto
 
 * Are reviews or tutorials performing better?
 * Are Shorts bringing viewers to long videos?
+* Are X.com, Pinterest, or Facebook bringing useful viewers?
 * Are people asking about software, YouTube growth, or Siberia?
 * Should the next month focus more on one app?
 
@@ -137,6 +142,7 @@ Keep the editing audience growing while clearly introducing the bigger project.
 * Is it time to research MCNs more seriously?
 * Should the channel stay editing-heavy longer?
 * Has any revenue started, and how much of it is reserved for the land fund?
+* Which videos or clips showed viral potential?
 
 ## Video Template For Reviews
 
@@ -169,6 +175,19 @@ At the end of each month, update [Land Funding Plan](FUNDING_PLAN.md) with:
 * Amount reserved for the land purchase.
 * Remaining gap to $20,000 USD.
 * Which content type produced the strongest trust, subscribers, and revenue.
+
+## Weekly Promotion Review
+
+Use [Distribution And Promotion Plan](DISTRIBUTION_PROMOTION_PLAN.md) after every upload.
+
+Track:
+
+* Shorts created from each main video.
+* X.com posts or threads created.
+* Pinterest pins created for evergreen topics.
+* Facebook posts or Reels created where appropriate.
+* External traffic shown in YouTube Studio.
+* Comments or questions that become future video ideas.
 
 ---
 

@@ -12,7 +12,7 @@ Markdown checkboxes are binary only. The three-state workflow is handled in [Int
 2. In progress.
 3. Completed.
 
-Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md) | [Upload Checklist](UPLOAD_CHECKLIST.md)
+Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md) | [Viral Video Strategy](VIRAL_VIDEO_STRATEGY.md) | [Distribution And Promotion Plan](DISTRIBUTION_PROMOTION_PLAN.md) | [Upload Checklist](UPLOAD_CHECKLIST.md)
 
 ## Phase 0: Foundation
 
@@ -35,6 +35,8 @@ Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md
 - [ ] Create a reusable lead-in/content/lead-out structure from `VIDEO_STRUCTURE.md`.
 - [ ] Use `BEGINNER_YOUTUBE_CURRICULUM.md` to expand each beginner video before scripting.
 - [ ] Create a reusable upload checklist.
+- [ ] Create a reusable viral video packaging checklist from `VIRAL_VIDEO_STRATEGY.md`.
+- [ ] Create a reusable promotion checklist from `DISTRIBUTION_PROMOTION_PLAN.md`.
 - [ ] Create a simple analytics tracker.
 - [ ] Create a $20,000 USD land fund tracker.
 - [ ] Decide how often to publicly update the land fund progress.
@@ -61,6 +63,9 @@ Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md
 - [ ] Draft planning tutorial: Create a Project Index for Your Channel Plan.
 - [ ] Draft planning tutorial: Choose Direct AdSense Or MCN.
 - [ ] Draft channel-building video: The $20,000 Land Fund Behind This Channel.
+- [ ] Draft growth tutorial: How to Make a YouTube Video More Shareable.
+- [ ] Draft growth tutorial: How to Promote a YouTube Video Without Spamming.
+- [ ] Draft growth tutorial: How to Turn One Tutorial Into Shorts, X Posts, Pinterest Pins, and Facebook Posts.
 - [ ] Review `MICRO_TIPS_AND_SCRIPT_INSERTS.md` before recording each beginner tutorial.
 
 ## Phase 2: Production Workflow
@@ -75,7 +80,11 @@ Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md
 - [ ] Create description template.
 - [ ] Create pinned comment template.
 - [ ] Create Shorts cutdown process.
+- [ ] Create X.com post template.
+- [ ] Create Pinterest pin template.
+- [ ] Create Facebook post/Reel template.
 - [ ] Publish first video.
+- [ ] Promote first video using the distribution checklist.
 - [ ] Review first video after 24 hours.
 - [ ] Review first video after 7 days.
 
@@ -110,6 +119,8 @@ Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md
 
 - [ ] Reach 100 subscribers.
 - [ ] Review which topics convert subscribers.
+- [ ] Review which videos show viral potential.
+- [ ] Review which platforms send useful viewers.
 - [ ] Reach 500 subscribers.
 - [ ] Check early YPP/fan funding eligibility requirements.
 - [ ] Reach 1,000 subscribers.
@@ -146,6 +157,8 @@ Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md
 ## Phase 6: Ongoing Review
 
 - [ ] Review analytics weekly.
+- [ ] Review external traffic weekly.
+- [ ] Review viral hooks weekly.
 - [ ] Update top-performing topic list.
 - [ ] Update weak-performing topic list.
 - [ ] Save good viewer questions.
@@ -156,4 +169,4 @@ Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md
 
 ---
 
-[Parent: Index](Index.md) | [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md) | [Upload Checklist](UPLOAD_CHECKLIST.md)
+[Parent: Index](Index.md) | [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md) | [Viral Video Strategy](VIRAL_VIDEO_STRATEGY.md) | [Distribution And Promotion Plan](DISTRIBUTION_PROMOTION_PLAN.md) | [Upload Checklist](UPLOAD_CHECKLIST.md)

@@ -2,13 +2,18 @@
 
 Parent: [Full Project Plan](PROJECT_PLAN.md)
 
-Children: [Beginner Curriculum](BEGINNER_YOUTUBE_CURRICULUM.md) | [Channel Planning Curriculum](CHANNEL_PLANNING_CURRICULUM.md) | [Micro Tips And Script Inserts](MICRO_TIPS_AND_SCRIPT_INSERTS.md) | [Video Structure](VIDEO_STRUCTURE.md) | [Upload Checklist](UPLOAD_CHECKLIST.md) | [Ideas Pipeline](ideas.md)
+Children: [Beginner Curriculum](BEGINNER_YOUTUBE_CURRICULUM.md) | [Channel Planning Curriculum](CHANNEL_PLANNING_CURRICULUM.md) | [Viral Video Strategy](VIRAL_VIDEO_STRATEGY.md) | [Distribution And Promotion Plan](DISTRIBUTION_PROMOTION_PLAN.md) | [Micro Tips And Script Inserts](MICRO_TIPS_AND_SCRIPT_INSERTS.md) | [Video Structure](VIDEO_STRUCTURE.md) | [Upload Checklist](UPLOAD_CHECKLIST.md) | [Ideas Pipeline](ideas.md)
 
 ## Launch Strategy
 
 Start with content that new YouTubers are already searching for: editing software reviews, editing tutorials, upload workflow, and beginner production guidance.
 
 The channel should not feel like a generic editing channel. Each video should gradually reveal that the creator is preparing to document a real Siberian homestead project.
+
+Every major video should also pass through:
+
+* [Viral Video Strategy](VIRAL_VIDEO_STRATEGY.md): hook, tension, title, thumbnail, and shareability check.
+* [Distribution And Promotion Plan](DISTRIBUTION_PROMOTION_PLAN.md): Shorts, X.com, Pinterest, Facebook, and external promotion workflow.
 
 ## Phase 1: Absolute Beginner YouTube Setup
 
@@ -188,6 +193,21 @@ Use Shorts as low-effort growth tests and funnels into longer videos.
 * One Siberia project hint or update.
 * One dry, serious-but-human observation from behind the scenes.
 
+## Viral Growth Series
+
+Goal: Teach creators how to make stronger videos while using the channel's own growth attempt as a live example.
+
+1. How to Make a YouTube Video More Shareable
+2. How to Write the First 15 Seconds of a YouTube Video
+3. How to Turn One Tutorial Into 5 Shorts
+4. How to Test Viral Hooks With Shorts
+5. How to Promote a YouTube Video Without Spamming
+6. How to Use X.com to Build a YouTube Channel in Public
+7. How to Use Pinterest for Evergreen YouTube Tutorials
+8. How to Use Facebook Groups Without Annoying Everyone
+9. How to Track External Traffic in YouTube Studio
+10. Which Videos Helped Move the $20,000 Land Fund?
+
 ## Selectable Follow-On Ideas
 
 Mark the ideas that feel useful after the editing tutorials are complete.
@@ -278,6 +298,19 @@ Mark the ideas that feel useful after the editing tutorials are complete.
 - [ ] How to test video ideas with Shorts.
 - [ ] How to avoid making Shorts that attract the wrong audience.
 
+### Viral Videos And Promotion
+
+- [ ] How to make a YouTube video more shareable.
+- [ ] How to write a strong viral hook without clickbait.
+- [ ] How to find the tension inside a video idea.
+- [ ] How to test video ideas with Shorts before making the long video.
+- [ ] How to turn one tutorial into Shorts, X posts, Pinterest pins, and Facebook posts.
+- [ ] How to promote a YouTube video without spamming.
+- [ ] How to use X.com to build in public.
+- [ ] How to use Pinterest for evergreen tutorial traffic.
+- [ ] How to share YouTube videos in Facebook groups respectfully.
+- [ ] How to track whether external promotion actually works.
+
 ### Analytics And Improvement
 
 - [ ] How to read YouTube Studio basics.
@@ -341,4 +374,4 @@ Mark the ideas that feel useful after the editing tutorials are complete.
 
 ---
 
-[Parent: Full Project Plan](PROJECT_PLAN.md) | [Beginner Curriculum](BEGINNER_YOUTUBE_CURRICULUM.md) | [Channel Planning Curriculum](CHANNEL_PLANNING_CURRICULUM.md) | [Micro Tips And Script Inserts](MICRO_TIPS_AND_SCRIPT_INSERTS.md) | [Video Structure](VIDEO_STRUCTURE.md) | [Upload Checklist](UPLOAD_CHECKLIST.md) | [Ideas Pipeline](ideas.md)
+[Parent: Full Project Plan](PROJECT_PLAN.md) | [Beginner Curriculum](BEGINNER_YOUTUBE_CURRICULUM.md) | [Channel Planning Curriculum](CHANNEL_PLANNING_CURRICULUM.md) | [Viral Video Strategy](VIRAL_VIDEO_STRATEGY.md) | [Distribution And Promotion Plan](DISTRIBUTION_PROMOTION_PLAN.md) | [Micro Tips And Script Inserts](MICRO_TIPS_AND_SCRIPT_INSERTS.md) | [Video Structure](VIDEO_STRUCTURE.md) | [Upload Checklist](UPLOAD_CHECKLIST.md) | [Ideas Pipeline](ideas.md)

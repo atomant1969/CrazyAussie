@@ -18,6 +18,8 @@ Use [Index.md](Index.md) as the main navigation page.
 
 * [Full Project Plan](PROJECT_PLAN.md)
 * [Land Funding Plan](FUNDING_PLAN.md)
+* [Viral Video Strategy](VIRAL_VIDEO_STRATEGY.md)
+* [Distribution And Promotion Plan](DISTRIBUTION_PROMOTION_PLAN.md)
 * [How To Use This Project](HOW_TO_USE.md)
 * [Working Checklist](CHECKLIST.md)
 
@@ -73,6 +75,7 @@ The bridge is important: mention the larger Siberian project naturally, but do n
 
 * **Main video**: 1 tutorial/review per week minimum.
 * **Shorts**: About 2 per week to start.
+* **Promotion**: Repurpose each main video into Shorts, X.com posts, Pinterest pins, and Facebook posts where appropriate.
 * **Community post**: 1 poll or question per week.
 * **Monthly review**: Pick the best-performing topic and turn it into a series.
 

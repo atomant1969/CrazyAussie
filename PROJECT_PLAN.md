@@ -2,7 +2,7 @@
 
 Parent: [Index](Index.md)
 
-Children: [Decisions](DECISIONS.md) | [First 90 Days](FIRST_90_DAYS.md) | [Video Roadmap](VIDEO_ROADMAP.md) | [Funding Plan](FUNDING_PLAN.md) | [Monetization Curriculum](MONETIZATION_CURRICULUM.md)
+Children: [Decisions](DECISIONS.md) | [First 90 Days](FIRST_90_DAYS.md) | [Video Roadmap](VIDEO_ROADMAP.md) | [Viral Video Strategy](VIRAL_VIDEO_STRATEGY.md) | [Distribution And Promotion Plan](DISTRIBUTION_PROMOTION_PLAN.md) | [Funding Plan](FUNDING_PLAN.md) | [Monetization Curriculum](MONETIZATION_CURRICULUM.md)
 
 Tracking: [Master Checklist](CHECKLIST.md)
 
@@ -13,6 +13,8 @@ Build a serious YouTube channel that first attracts beginner creators through ed
 The first business objective is to earn **$20,000 USD total creator revenue** so the land can be bought for the off-grid Siberian project. Subscriber growth is the engine, but the land fund is the mission-critical target.
 
 The strategic subscriber target before the full transition is **50,000 subscribers**, ideally within **3 months**. This is aggressive, so the launch must be focused on searchable, useful, repeatable lead-generation content that can also support revenue through YPP, MCN payouts, affiliates, sponsorships, digital products, or other trust-safe income.
+
+Growth should not rely on uploads alone. Each major video needs a viral packaging check and a distribution plan across YouTube Shorts, X.com, Pinterest, Facebook, and any other platform that can bring useful viewers back to the channel.
 
 ## Core Channel Identity
 
@@ -73,6 +75,7 @@ Success criteria:
 * First 20 video ideas are planned.
 * Repeatable script, shoot, edit, upload, and review workflow exists.
 * First videos can be recorded with an Android phone and edited on a computer.
+* Viral packaging and off-platform promotion checklists exist.
 
 ### Phase 1: Lead Generation Through Editing Tutorials
 
@@ -90,6 +93,8 @@ Core video types:
 * Shorts editing.
 * Simple intros and outros.
 * Preparing a video for upload.
+* Viral beginner mistakes and simple fixes.
+* Shorts cutdowns designed to funnel back to long-form tutorials.
 
 Important rule: These videos can be practical and search-focused first. The Siberian project should appear as a light identity bridge, not as a forced topic in every tutorial before footage exists.
 
@@ -235,6 +240,21 @@ Examples:
 * How I choose video topics.
 * What I learned from my first 10 uploads.
 * What my analytics show after 30 days.
+* Which videos had viral potential and why.
+* Which outside platforms brought useful viewers.
+
+### Content Pillar 2A: Viral Growth And Promotion Education
+
+Purpose: Teach new YouTubers how to design videos for stronger reach and how to promote them without spamming.
+
+Examples:
+
+* How to make a YouTube video more shareable.
+* How to write a stronger first 15 seconds.
+* How to turn one tutorial into Shorts, X posts, Pinterest pins, and Facebook posts.
+* How to promote a YouTube video without being annoying.
+* How to track external traffic sources in YouTube Studio.
+* How to test viral hooks with Shorts.
 
 ### Content Pillar 3: Siberian Project Preparation
 
@@ -272,6 +292,7 @@ Publish consistently, test the editing tutorial/review audience, establish the S
 
 * 10-minute editing tutorial/review videos where useful.
 * About 2 Shorts per week to start.
+* X.com, Pinterest, and Facebook repurposing where useful.
 * 1 community post per week once available.
 
 ### First 12 Long-Form Videos
@@ -303,6 +324,9 @@ Track these after every upload:
 * Comments asking for more help.
 * Comments asking about Siberia/building.
 * Revenue source and net amount reserved for the land fund once revenue begins.
+* External traffic sources.
+* Shorts-to-long-form conversion.
+* Which hooks or topics show viral potential.
 
 ### Growth Milestones
 
@@ -400,7 +424,8 @@ Every video should do at least one of these jobs:
 3. Move the audience closer to caring about the land/build journey.
 4. Prepare the channel for monetization without rushing into a bad payout setup.
 5. Move the project closer to the $20,000 USD land purchase target.
+6. Create a reusable clip, post, pin, or discussion point for promotion.
 
 ---
 
-[Parent: Index](Index.md) | [Decisions](DECISIONS.md) | [First 90 Days](FIRST_90_DAYS.md) | [Video Roadmap](VIDEO_ROADMAP.md) | [Funding Plan](FUNDING_PLAN.md) | [Monetization Curriculum](MONETIZATION_CURRICULUM.md)
+[Parent: Index](Index.md) | [Decisions](DECISIONS.md) | [First 90 Days](FIRST_90_DAYS.md) | [Video Roadmap](VIDEO_ROADMAP.md) | [Viral Video Strategy](VIRAL_VIDEO_STRATEGY.md) | [Distribution And Promotion Plan](DISTRIBUTION_PROMOTION_PLAN.md) | [Funding Plan](FUNDING_PLAN.md) | [Monetization Curriculum](MONETIZATION_CURRICULUM.md)

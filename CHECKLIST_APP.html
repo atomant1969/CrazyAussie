@@ -591,6 +591,15 @@
       "in-progress": "In Progress",
       "completed": "Completed"
     };
+    const documentLinks = {
+      "VIDEO_STRUCTURE.md": "VIDEO_STRUCTURE.md",
+      "BEGINNER_YOUTUBE_CURRICULUM.md": "BEGINNER_YOUTUBE_CURRICULUM.md",
+      "VIRAL_VIDEO_STRATEGY.md": "VIRAL_VIDEO_STRATEGY.md",
+      "DISTRIBUTION_PROMOTION_PLAN.md": "DISTRIBUTION_PROMOTION_PLAN.md",
+      "MICRO_TIPS_AND_SCRIPT_INSERTS.md": "MICRO_TIPS_AND_SCRIPT_INSERTS.md",
+      "MONETIZATION_CURRICULUM.md": "MONETIZATION_CURRICULUM.md",
+      "FUNDING_PLAN.md": "FUNDING_PLAN.md"
+    };
     const nextStatus = {
       "not-started": "in-progress",
       "in-progress": "completed",
@@ -696,7 +705,7 @@
           main.className = "task-main";
           const text = document.createElement("div");
           text.className = "task-text";
-          text.textContent = item.task;
+          appendLinkedTaskText(text, item.task);
 
           const note = document.createElement("textarea");
           note.value = item.note;
@@ -756,6 +765,29 @@
         '"': "&quot;",
         "'": "&#039;"
       }[char]));
+    }
+
+    function appendLinkedTaskText(container, value) {
+      const pattern = new RegExp(Object.keys(documentLinks).map(escapeRegExp).join("|"), "g");
+      let lastIndex = 0;
+      let match;
+      while ((match = pattern.exec(value)) !== null) {
+        if (match.index > lastIndex) {
+          container.append(document.createTextNode(value.slice(lastIndex, match.index)));
+        }
+        const link = document.createElement("a");
+        link.href = documentLinks[match[0]];
+        link.textContent = match[0];
+        container.append(link);
+        lastIndex = pattern.lastIndex;
+      }
+      if (lastIndex < value.length) {
+        container.append(document.createTextNode(value.slice(lastIndex)));
+      }
+    }
+
+    function escapeRegExp(value) {
+      return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     }
 
     function exportProgress() {

@@ -32,11 +32,11 @@ Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md
 - [ ] Create folder structure for raw footage, edits, thumbnails, and exports.
 - [ ] Create a reusable editing review template.
 - [ ] Create a reusable tutorial outline template.
-- [ ] Create a reusable lead-in/content/lead-out structure from `VIDEO_STRUCTURE.md`.
-- [ ] Use `BEGINNER_YOUTUBE_CURRICULUM.md` to expand each beginner video before scripting.
+- [ ] Create a reusable lead-in/content/lead-out structure from [Video Structure](VIDEO_STRUCTURE.md).
+- [ ] Use [Beginner YouTube Curriculum](BEGINNER_YOUTUBE_CURRICULUM.md) to expand each beginner video before scripting.
 - [ ] Create a reusable upload checklist.
-- [ ] Create a reusable viral video packaging checklist from `VIRAL_VIDEO_STRATEGY.md`.
-- [ ] Create a reusable promotion checklist from `DISTRIBUTION_PROMOTION_PLAN.md`.
+- [ ] Create a reusable viral video packaging checklist from [Viral Video Strategy](VIRAL_VIDEO_STRATEGY.md).
+- [ ] Create a reusable promotion checklist from [Distribution And Promotion Plan](DISTRIBUTION_PROMOTION_PLAN.md).
 - [ ] Create a simple analytics tracker.
 - [ ] Create a $20,000 USD land fund tracker.
 - [ ] Decide how often to publicly update the land fund progress.
@@ -66,7 +66,7 @@ Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md
 - [ ] Draft growth tutorial: How to Make a YouTube Video More Shareable.
 - [ ] Draft growth tutorial: How to Promote a YouTube Video Without Spamming.
 - [ ] Draft growth tutorial: How to Turn One Tutorial Into Shorts, TikToks, X Posts, Pinterest Pins, and Facebook Posts.
-- [ ] Review `MICRO_TIPS_AND_SCRIPT_INSERTS.md` before recording each beginner tutorial.
+- [ ] Review [Micro Tips And Script Inserts](MICRO_TIPS_AND_SCRIPT_INSERTS.md) before recording each beginner tutorial.
 
 ## Phase 2: Production Workflow
 
@@ -93,8 +93,8 @@ Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md
 
 - [ ] Re-check current YouTube Partner Program thresholds before applying.
 - [ ] Re-check any February 1, 2027 YPP changes if applying after that date.
-- [ ] Build a monetization table from `MONETIZATION_CURRICULUM.md`.
-- [ ] Build a land funding tracker from `FUNDING_PLAN.md`.
+- [ ] Build a monetization table from [Monetization Curriculum](MONETIZATION_CURRICULUM.md).
+- [ ] Build a land funding tracker from [Land Funding Plan](FUNDING_PLAN.md).
 - [ ] Draft a beginner explanation of YPP tiers.
 - [ ] Draft a beginner explanation of direct AdSense.
 - [ ] Draft a beginner explanation of MCNs.

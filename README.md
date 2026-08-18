@@ -98,7 +98,7 @@ The bridge is important: mention the larger Siberian project naturally, but do n
 
 1. Choose the first five editing apps/software tools to review.
 2. Set up the $20,000 USD land fund tracker.
-3. Draft the first editing review using `script_template.md`.
+3. Draft the first editing review using [Script Template](script_template.md).
 4. Record a short Android phone camera test and a screen recording test.
 5. Decide whether Shorts or 10-minute reviews are the main first-month growth engine.
 

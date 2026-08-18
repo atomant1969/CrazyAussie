@@ -82,7 +82,7 @@ Related: [Video Structure](VIDEO_STRUCTURE.md) | [Beginner Curriculum](BEGINNER_
 - [ ] Record 24-hour metrics.
 - [ ] Record 7-day metrics.
 - [ ] Save useful viewer questions.
-- [ ] Add follow-up ideas to `VIDEO_ROADMAP.md`.
+- [ ] Add follow-up ideas to [Video Roadmap](VIDEO_ROADMAP.md).
 
 ---
 

@@ -12,13 +12,15 @@ If you downloaded this project from GitHub, open:
 START_HERE.html
 ```
 
-That file opens in a normal web browser and gives you clickable navigation.
+That file opens in a normal web browser and gives you clickable navigation to generated HTML pages.
 
 ## Why Index.md May Look Like Plain Text
 
 `Index.md` is a Markdown file. Markdown is easy to read and works well on GitHub, but on some computers it opens as plain text if there is no Markdown viewer installed.
 
 That is normal. Nothing is broken.
+
+For local browser use, open `START_HERE.html` and follow the links to the generated pages in the `html` folder.
 
 ## Best Ways To Use The Project
 
@@ -29,7 +31,7 @@ Best for non-technical use.
 1. Download or clone the repo.
 2. Open the folder.
 3. Double-click `START_HERE.html`.
-4. Use the links to open the project index, checklist, and docs.
+4. Use the links to open the project index, checklist, and docs as browser-friendly HTML pages.
 
 ### Option 2: Use GitHub
 
@@ -88,3 +90,13 @@ Progress is saved in the browser on that computer. Use **Export Progress** insid
 ## Turning This Project Into Videos
 
 The planning system is also teaching material. Use [CHANNEL_PLANNING_CURRICULUM.md](CHANNEL_PLANNING_CURRICULUM.md) to turn the creation of this plan into tutorials for other YouTubers.
+
+## Rebuilding The HTML Pages
+
+If you edit the Markdown files, rebuild the browser pages with:
+
+```text
+node build-html.js
+```
+
+This refreshes the generated files in the `html` folder.

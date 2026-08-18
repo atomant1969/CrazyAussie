@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f7f4ee;
+  color: #1e252b;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.55;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 12px max(18px, calc((100vw - 980px) / 2));
+  background: rgba(247, 244, 238, 0.96);
+  border-bottom: 1px solid #d8d2c8;
+  backdrop-filter: blur(10px);
+}
+
+.site-header a,
+.document a {
+  color: #116466;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-header a:hover,
+.document a:hover {
+  text-decoration: underline;
+}
+
+.document {
+  width: min(980px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 32px 0 64px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.18;
+  letter-spacing: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+}
+
+h2 {
+  margin-top: 34px;
+  padding-top: 10px;
+  border-top: 1px solid #d8d2c8;
+}
+
+p,
+li {
+  font-size: 1.02rem;
+}
+
+code {
+  padding: 2px 5px;
+  border-radius: 4px;
+  background: #eee7dc;
+}
+
+pre {
+  overflow-x: auto;
+  padding: 16px;
+  border-radius: 8px;
+  background: #1e252b;
+  color: #f7f4ee;
+}
+
+pre code {
+  padding: 0;
+  background: transparent;
+}
+
+blockquote {
+  margin: 18px 0;
+  padding: 12px 16px;
+  border-left: 4px solid #116466;
+  background: #ffffff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 18px 0;
+  background: #ffffff;
+}
+
+th,
+td {
+  padding: 9px 10px;
+  border: 1px solid #d8d2c8;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: #e8f3f1;
+}
+
+input[type="checkbox"] {
+  margin-right: 7px;
+}

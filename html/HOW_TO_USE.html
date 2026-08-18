@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How To Use This Project</title>
+  <link rel="stylesheet" href="./site.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="./Index.html">Index</a>
+    <a href="../CHECKLIST_APP.html">Interactive Checklist</a>
+    <a href="./PROJECT_PLAN.html">Project Plan</a>
+  </header>
+  <main class="document">
+<h1 id="how-to-use-this-project">How To Use This Project</h1>
+<p>Parent: <a href="./Index.html">Index</a></p>
+<p>Tool: <a href="../START_HERE.html">Start Here HTML</a></p>
+<h2 id="short-answer">Short Answer</h2>
+<p>If you downloaded this project from GitHub, open:</p>
+<pre><code>START_HERE.html</code></pre>
+<p>That file opens in a normal web browser and gives you clickable navigation to generated HTML pages.</p>
+<h2 id="why-index-md-may-look-like-plain-text">Why Index.md May Look Like Plain Text</h2>
+<p><code>Index.md</code> is a Markdown file. Markdown is easy to read and works well on GitHub, but on some computers it opens as plain text if there is no Markdown viewer installed.</p>
+<p>That is normal. Nothing is broken.</p>
+<p>For local browser use, open <code>START_HERE.html</code> and follow the links to the generated pages in the <code>html</code> folder.</p>
+<h2 id="best-ways-to-use-the-project">Best Ways To Use The Project</h2>
+<h3 id="option-1-use-the-browser-start-page">Option 1: Use The Browser Start Page</h3>
+<p>Best for non-technical use.</p>
+<ol>
+<li>Download or clone the repo.</li>
+<li>Open the folder.</li>
+<li>Double-click <code>START_HERE.html</code>.</li>
+<li>Use the links to open the project index, checklist, and docs as browser-friendly HTML pages.</li>
+</ol>
+<h3 id="option-2-use-github">Option 2: Use GitHub</h3>
+<p>Best if viewing online.</p>
+<ol>
+<li>Open the repo on GitHub.</li>
+<li>Click <code>Index.md</code>.</li>
+<li>GitHub will render the Markdown as formatted pages.</li>
+<li>Click links between documents.</li>
+</ol>
+<h3 id="option-3-use-vs-code">Option 3: Use VS Code</h3>
+<p>Best if editing the files.</p>
+<ol>
+<li>Open the folder in VS Code.</li>
+<li>Open <code>Index.md</code>.</li>
+<li>Use Markdown preview with <code>Ctrl+Shift+V</code>.</li>
+<li>Edit files as needed.</li>
+</ol>
+<h3 id="option-4-use-a-markdown-app">Option 4: Use A Markdown App</h3>
+<p>Good apps include:</p>
+<ul>
+<li>Obsidian.</li>
+<li>Typora.</li>
+<li>MarkText.</li>
+<li>VS Code.</li>
+</ul>
+<p>Open the project folder as a vault/workspace and start at <code>Index.md</code>.</p>
+<h2 id="checklist-progress">Checklist Progress</h2>
+<p>Markdown checkboxes may not save when clicked in a preview.</p>
+<p>Use <a href="../CHECKLIST_APP.html">CHECKLIST_APP.html</a> for real progress tracking. It saves:</p>
+<ul>
+<li>checked tasks</li>
+<li>in-progress tasks</li>
+<li>notes</li>
+<li>collapsed sections</li>
+<li>scroll position</li>
+</ul>
+<p>The Markdown checklist is binary. The HTML checklist uses three states: not started, in progress, and completed.</p>
+<p>Progress is saved in the browser on that computer. Use <strong>Export Progress</strong> inside the checklist app if you want a backup.</p>
+<h2 id="recommended-daily-workflow">Recommended Daily Workflow</h2>
+<ol>
+<li>Open <code>START_HERE.html</code>.</li>
+<li>Open <code>CHECKLIST_APP.html</code>.</li>
+<li>Work from the current open tasks.</li>
+<li>Add notes as you go.</li>
+<li>Export progress occasionally.</li>
+<li>Use <code>Index.md</code> when you need to navigate the full planning system.</li>
+</ol>
+<h2 id="turning-this-project-into-videos">Turning This Project Into Videos</h2>
+<p>The planning system is also teaching material. Use <a href="./CHANNEL_PLANNING_CURRICULUM.html">CHANNEL_PLANNING_CURRICULUM.md</a> to turn the creation of this plan into tutorials for other YouTubers.</p>
+<h2 id="rebuilding-the-html-pages">Rebuilding The HTML Pages</h2>
+<p>If you edit the Markdown files, rebuild the browser pages with:</p>
+<pre><code>node build-html.js</code></pre>
+<p>This refreshes the generated files in the <code>html</code> folder.</p>
+  </main>
+</body>
+</html>

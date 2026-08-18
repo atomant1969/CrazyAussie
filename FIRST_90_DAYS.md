@@ -143,6 +143,7 @@ Keep the editing audience growing while clearly introducing the bigger project.
 * Should the channel stay editing-heavy longer?
 * Has any revenue started, and how much of it is reserved for the land fund?
 * Which videos or clips showed viral potential?
+* Which breakout patterns can be repeated without copying the same video?
 
 ## Video Template For Reviews
 
@@ -188,6 +189,16 @@ Track:
 * Facebook posts or Reels created where appropriate.
 * External traffic shown in YouTube Studio.
 * Comments or questions that become future video ideas.
+
+## Breakout Repeat Loop
+
+If one video clearly beats the channel baseline:
+
+1. Fill out the breakout report in [Viral Video Strategy](VIRAL_VIDEO_STRATEGY.md).
+2. Identify whether the cause was topic, title, thumbnail, hook, timing, traffic source, shareable moment, or the Siberian/$20,000 land story.
+3. Draft three controlled follow-up variations.
+4. Publish the strongest follow-up quickly.
+5. Track whether the pattern repeats or fades.
 
 ---
 

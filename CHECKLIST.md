@@ -120,6 +120,9 @@ Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md
 - [ ] Reach 100 subscribers.
 - [ ] Review which topics convert subscribers.
 - [ ] Review which videos show viral potential.
+- [ ] Create a breakout report for any video that beats the channel baseline.
+- [ ] Identify the repeatable pattern behind each breakout video.
+- [ ] Draft three controlled follow-up variations after a breakout.
 - [ ] Review which platforms send useful viewers.
 - [ ] Reach 500 subscribers.
 - [ ] Check early YPP/fan funding eligibility requirements.
@@ -159,6 +162,7 @@ Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md
 - [ ] Review analytics weekly.
 - [ ] Review external traffic weekly.
 - [ ] Review viral hooks weekly.
+- [ ] Update repeatable viral patterns monthly.
 - [ ] Update top-performing topic list.
 - [ ] Update weak-performing topic list.
 - [ ] Save good viewer questions.

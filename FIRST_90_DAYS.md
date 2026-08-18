@@ -10,6 +10,8 @@ Tracking: [Master Checklist](CHECKLIST.md)
 
 Attempt to reach **50,000 subscribers in 3 months** using absolute beginner YouTube setup videos, editing software reviews, editing tutorials, upload/publishing lessons, Shorts, and channel-building-in-public videos.
 
+The larger business target is to earn **$20,000 USD total creator revenue** so the channel can buy the land needed for the off-grid Siberian build.
+
 This is an aggressive target. The plan should be treated as a high-output testing sprint, not a guarantee.
 
 ## Launch Rules
@@ -17,6 +19,8 @@ This is an aggressive target. The plan should be treated as a high-output testin
 * Lead with the complete beginner path: Android phone, recording, transfer to PC, editing, export, upload, thumbnail, publish.
 * Move into editing software reviews and tutorials after the phone-to-PC basics are clear.
 * Keep videos useful for beginner YouTubers.
+* Track the land fund separately from subscribers.
+* Mention the $20,000 USD land target honestly in channel-building-in-public videos, without making every tutorial feel like a fundraising pitch.
 * Use the Siberian project as identity and future direction, not as the main topic before footage exists.
 * Keep exact location, family/private life, politics, sanctions, and banking details out of public videos.
 * Use English only for now.
@@ -132,6 +136,7 @@ Keep the editing audience growing while clearly introducing the bigger project.
 * Is the audience ready for Siberian bridge content?
 * Is it time to research MCNs more seriously?
 * Should the channel stay editing-heavy longer?
+* Has any revenue started, and how much of it is reserved for the land fund?
 
 ## Video Template For Reviews
 
@@ -155,6 +160,16 @@ Keep the editing audience growing while clearly introducing the bigger project.
 6. Give the viewer the next video to watch.
 7. Short bridge to the Crazy Aussie in Siberia project if natural.
 
+## Monthly Funding Review
+
+At the end of each month, update [Land Funding Plan](FUNDING_PLAN.md) with:
+
+* Total revenue earned.
+* Net revenue after known fees, withholding, MCN fees, platform share, and payment costs.
+* Amount reserved for the land purchase.
+* Remaining gap to $20,000 USD.
+* Which content type produced the strongest trust, subscribers, and revenue.
+
 ---
 
-[Parent: Full Project Plan](PROJECT_PLAN.md) | [Next: Video Roadmap](VIDEO_ROADMAP.md) | [Master Checklist](CHECKLIST.md)
+[Parent: Full Project Plan](PROJECT_PLAN.md) | [Next: Video Roadmap](VIDEO_ROADMAP.md) | [Funding Plan](FUNDING_PLAN.md) | [Master Checklist](CHECKLIST.md)

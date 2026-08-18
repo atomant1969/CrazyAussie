@@ -10,6 +10,7 @@ Related: [Master Checklist](CHECKLIST.md)
 * **Working name**: The Crazy Aussie in Siberia.
 * **Style on camera**: Mixed. Use face, voiceover, and tutorial/screen formats as needed.
 * **Early channel angle**: Equal mix of helping new YouTubers and building the channel in public.
+* **Phase-one business target**: Earn $20,000 USD total creator revenue to buy land for the off-grid Siberian project.
 * **50k subscriber target**: Desired milestone, but not necessarily a hard monetization rule.
 * **YPP timing preference**: Wait until 50k subscribers before applying, unless this decision is revisited.
 * **50k target timeframe**: 3 months.

@@ -36,6 +36,8 @@ Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md
 - [ ] Use `BEGINNER_YOUTUBE_CURRICULUM.md` to expand each beginner video before scripting.
 - [ ] Create a reusable upload checklist.
 - [ ] Create a simple analytics tracker.
+- [ ] Create a $20,000 USD land fund tracker.
+- [ ] Decide how often to publicly update the land fund progress.
 - [ ] Decide whether sponsorships/affiliate links should be planned before YPP.
 
 ## Phase 1: First Editing Lead-Generation Videos
@@ -58,6 +60,7 @@ Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md
 - [ ] Draft planning tutorial: Build a YouTube Channel Checklist.
 - [ ] Draft planning tutorial: Create a Project Index for Your Channel Plan.
 - [ ] Draft planning tutorial: Choose Direct AdSense Or MCN.
+- [ ] Draft channel-building video: The $20,000 Land Fund Behind This Channel.
 - [ ] Review `MICRO_TIPS_AND_SCRIPT_INSERTS.md` before recording each beginner tutorial.
 
 ## Phase 2: Production Workflow
@@ -81,6 +84,7 @@ Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md
 - [ ] Re-check current YouTube Partner Program thresholds before applying.
 - [ ] Re-check any February 1, 2027 YPP changes if applying after that date.
 - [ ] Build a monetization table from `MONETIZATION_CURRICULUM.md`.
+- [ ] Build a land funding tracker from `FUNDING_PLAN.md`.
 - [ ] Draft a beginner explanation of YPP tiers.
 - [ ] Draft a beginner explanation of direct AdSense.
 - [ ] Draft a beginner explanation of MCNs.
@@ -118,6 +122,11 @@ Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md
 - [ ] Prepare the land/build content transition.
 - [ ] Reach 50,000 subscribers.
 - [ ] Begin MCN/YPP setup and main project transition.
+- [ ] Reach $5,000 USD reserved for the land fund.
+- [ ] Reach $10,000 USD reserved for the land fund.
+- [ ] Reach $15,000 USD reserved for the land fund.
+- [ ] Reach $20,000 USD reserved for the land fund.
+- [ ] Confirm land purchase path before the full build documentary transition.
 
 ## Phase 5: Siberian Project Transition
 

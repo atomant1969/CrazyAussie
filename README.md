@@ -10,11 +10,14 @@ Local browser start: [START_HERE.html](START_HERE.html)
 
 The Crazy Aussie in Siberia is a YouTube channel project that starts with editing software reviews and tutorials for new YouTubers, then gradually transitions into the long-term documentary story: an Australian building a life and homestead in Siberia.
 
+The first business target is to earn **$20,000 USD total creator revenue** so the land can be bought for the off-grid main part of the channel.
+
 Use [Index.md](Index.md) as the main navigation page.
 
 ## Project Documents
 
 * [Full Project Plan](PROJECT_PLAN.md)
+* [Land Funding Plan](FUNDING_PLAN.md)
 * [How To Use This Project](HOW_TO_USE.md)
 * [Working Checklist](CHECKLIST.md)
 
@@ -31,8 +34,9 @@ Use [Index.md](Index.md) as the main navigation page.
 The channel is built around three tensions:
 
 1. **Creator growth before the build**: Build the audience by helping people make better YouTube videos.
-2. **Aussie vs. Siberia**: A foreigner adapting to Siberian rural life and climate.
-3. **Dual-climate engineering**: Later structures must work across intense summer heat and extreme winter cold.
+2. **The $20,000 land fund**: Teach useful YouTube skills while funding the land needed for the off-grid project.
+3. **Aussie vs. Siberia**: A foreigner adapting to Siberian rural life and climate.
+4. **Dual-climate engineering**: Later structures must work across intense summer heat and extreme winter cold.
 
 ### Content Pillars
 
@@ -90,9 +94,10 @@ The bridge is important: mention the larger Siberian project naturally, but do n
 ### Next Milestones
 
 1. Choose the first five editing apps/software tools to review.
-2. Draft the first editing review using `script_template.md`.
-3. Record a short Android phone camera test and a screen recording test.
-4. Decide whether Shorts or 10-minute reviews are the main first-month growth engine.
+2. Set up the $20,000 USD land fund tracker.
+3. Draft the first editing review using `script_template.md`.
+4. Record a short Android phone camera test and a screen recording test.
+5. Decide whether Shorts or 10-minute reviews are the main first-month growth engine.
 
 ---
 

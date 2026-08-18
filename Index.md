@@ -34,6 +34,7 @@ START_HERE.html
     PROJECT_PLAN.md
       DECISIONS.md
       FIRST_90_DAYS.md
+      FUNDING_PLAN.md
       VIDEO_ROADMAP.md
         BEGINNER_YOUTUBE_CURRICULUM.md
         CHANNEL_PLANNING_CURRICULUM.md
@@ -66,6 +67,6 @@ These are the working starting points:
 
 The channel starts by helping practical beginners learn how to make YouTube videos from zero:
 
-`Android phone -> record -> transfer to PC -> organize -> edit -> export -> upload -> thumbnail -> publish -> analytics`
+`Android phone -> record -> transfer to PC -> organize -> edit -> export -> upload -> thumbnail -> publish -> analytics -> monetization -> $20,000 USD land fund`
 
 That lead-generation content builds trust and subscribers before the channel slowly transitions into the long-term documentary project: an Australian building a homestead in Siberia.

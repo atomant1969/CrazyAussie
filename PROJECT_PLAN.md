@@ -2,7 +2,7 @@
 
 Parent: [Index](Index.md)
 
-Children: [Decisions](DECISIONS.md) | [First 90 Days](FIRST_90_DAYS.md) | [Video Roadmap](VIDEO_ROADMAP.md) | [Monetization Curriculum](MONETIZATION_CURRICULUM.md)
+Children: [Decisions](DECISIONS.md) | [First 90 Days](FIRST_90_DAYS.md) | [Video Roadmap](VIDEO_ROADMAP.md) | [Funding Plan](FUNDING_PLAN.md) | [Monetization Curriculum](MONETIZATION_CURRICULUM.md)
 
 Tracking: [Master Checklist](CHECKLIST.md)
 
@@ -10,7 +10,9 @@ Tracking: [Master Checklist](CHECKLIST.md)
 
 Build a serious YouTube channel that first attracts beginner creators through editing software reviews, editing tutorials, and practical YouTube production lessons, then gradually transitions into the main documentary project: an Australian building a homestead in Siberia.
 
-The strategic subscriber target before the full transition is **50,000 subscribers**, ideally within **3 months**. This is aggressive, so the launch must be focused on searchable, useful, repeatable lead-generation content.
+The first business objective is to earn **$20,000 USD total creator revenue** so the land can be bought for the off-grid Siberian project. Subscriber growth is the engine, but the land fund is the mission-critical target.
+
+The strategic subscriber target before the full transition is **50,000 subscribers**, ideally within **3 months**. This is aggressive, so the launch must be focused on searchable, useful, repeatable lead-generation content that can also support revenue through YPP, MCN payouts, affiliates, sponsorships, digital products, or other trust-safe income.
 
 ## Core Channel Identity
 
@@ -74,7 +76,7 @@ Success criteria:
 
 ### Phase 1: Lead Generation Through Editing Tutorials
 
-Purpose: Grow the first audience by solving real problems for new YouTubers.
+Purpose: Grow the first audience by solving real problems for new YouTubers and build the revenue base for the $20,000 USD land fund.
 
 Core video types:
 
@@ -109,14 +111,14 @@ Goal: Keep helping new YouTubers, but make the Siberian project impossible to mi
 
 ### Phase 3: 50k Subscriber Transition
 
-Purpose: Once the channel has meaningful audience momentum, start moving toward the land/build focus.
+Purpose: Once the channel has meaningful audience momentum and a credible path toward the $20,000 USD land fund, start moving toward the land/build focus.
 
 Transition principles:
 
 * Do not abruptly abandon the production audience.
 * Keep production lessons, but make the Siberian project the main example.
 * Introduce build episodes as documentary case studies.
-* Explain the shift honestly to the audience.
+* Explain the shift honestly to the audience, including that the tutorial phase was designed to fund the land purchase.
 * Use polls and comments to identify who is interested in the build arc.
 
 Suggested transition mix:
@@ -133,7 +135,7 @@ Then slowly move toward:
 
 ### Phase 4: Land and Build Documentary
 
-Purpose: Begin the full documentary project.
+Purpose: Begin the full documentary project once the land funding target has been met or another safe funding path is confirmed.
 
 Build order:
 
@@ -154,7 +156,7 @@ Documentary style:
 
 ### Phase 5: Monetization
 
-Purpose: Apply for monetization once the channel has traction and the payout route is clear.
+Purpose: Apply for monetization once the channel has traction and the payout route is clear, then turn that monetization into the $20,000 USD land fund.
 
 Current YouTube structure, verified August 17, 2026:
 
@@ -167,6 +169,7 @@ Because the channel aims for 50,000 subscribers before the main monetization pus
 * Build a large English-speaking audience.
 * Keep content original and policy-safe.
 * Track watch hours from long-form videos.
+* Track total creator revenue and the remaining gap to $20,000 USD.
 * Treat an MCN as the likely monetization route.
 * Research MCNs before signing anything.
 * Avoid relying on Russian ad inventory.
@@ -227,6 +230,8 @@ Examples:
 
 * Building a YouTube channel from zero in Siberia.
 * My 3-month plan to reach 50k subscribers.
+* The $20,000 land fund plan behind this channel.
+* How I am tracking YouTube revenue toward a real project.
 * How I choose video topics.
 * What I learned from my first 10 uploads.
 * What my analytics show after 30 days.
@@ -261,7 +266,7 @@ Examples:
 
 ### Goal
 
-Publish consistently, test the editing tutorial/review audience, and establish the Siberian project as the larger story.
+Publish consistently, test the editing tutorial/review audience, establish the Siberian project as the larger story, and begin tracking progress toward the $20,000 USD land fund.
 
 ### Publishing Rhythm
 
@@ -297,6 +302,7 @@ Track these after every upload:
 * Subscriber conversion.
 * Comments asking for more help.
 * Comments asking about Siberia/building.
+* Revenue source and net amount reserved for the land fund once revenue begins.
 
 ### Growth Milestones
 
@@ -307,6 +313,7 @@ Track these after every upload:
 * **10,000 subscribers**: Introduce the Siberian project as a recurring storyline.
 * **25,000 subscribers**: Start serious land/build preparation content.
 * **50,000 subscribers**: Begin main transition and MCN/YPP process.
+* **$20,000 USD land fund**: Confirm land purchase path before the full build documentary phase.
 
 ## Monetization Route Options
 
@@ -392,7 +399,8 @@ Every video should do at least one of these jobs:
 2. Build trust in the Crazy Aussie in Siberia project.
 3. Move the audience closer to caring about the land/build journey.
 4. Prepare the channel for monetization without rushing into a bad payout setup.
+5. Move the project closer to the $20,000 USD land purchase target.
 
 ---
 
-[Parent: Index](Index.md) | [Decisions](DECISIONS.md) | [First 90 Days](FIRST_90_DAYS.md) | [Video Roadmap](VIDEO_ROADMAP.md) | [Monetization Curriculum](MONETIZATION_CURRICULUM.md)
+[Parent: Index](Index.md) | [Decisions](DECISIONS.md) | [First 90 Days](FIRST_90_DAYS.md) | [Video Roadmap](VIDEO_ROADMAP.md) | [Funding Plan](FUNDING_PLAN.md) | [Monetization Curriculum](MONETIZATION_CURRICULUM.md)

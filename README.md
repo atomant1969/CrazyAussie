@@ -1,10 +1,8 @@
 # The Crazy Aussie in Siberia
 
-Parent: [Index](Index.md)
+Browser start: [START_HERE.html](START_HERE.html)
 
-Next: [Full Project Plan](PROJECT_PLAN.md)
-
-Local browser start: [START_HERE.html](START_HERE.html)
+Main index: [html/Index.html](html/Index.html)
 
 ## YouTube Channel Project Plan
 
@@ -12,16 +10,16 @@ The Crazy Aussie in Siberia is a YouTube channel project that starts with editin
 
 The first business target is to earn **$20,000 USD total creator revenue** so the land can be bought for the off-grid main part of the channel.
 
-Use [Index.md](Index.md) as the main navigation page.
+Use [START_HERE.html](START_HERE.html) as the local browser starting page.
 
 ## Project Documents
 
-* [Full Project Plan](PROJECT_PLAN.md)
-* [Land Funding Plan](FUNDING_PLAN.md)
-* [Viral Video Strategy](VIRAL_VIDEO_STRATEGY.md)
-* [Distribution And Promotion Plan](DISTRIBUTION_PROMOTION_PLAN.md)
-* [How To Use This Project](HOW_TO_USE.md)
-* [Working Checklist](CHECKLIST.md)
+* [Full Project Plan](html/PROJECT_PLAN.html)
+* [Land Funding Plan](html/FUNDING_PLAN.html)
+* [Viral Video Strategy](html/VIRAL_VIDEO_STRATEGY.html)
+* [Distribution And Promotion Plan](html/DISTRIBUTION_PROMOTION_PLAN.html)
+* [How To Use This Project](html/HOW_TO_USE.html)
+* [Working Checklist](CHECKLIST_APP.html)
 
 ### Channel Positioning
 
@@ -98,10 +96,10 @@ The bridge is important: mention the larger Siberian project naturally, but do n
 
 1. Choose the first five editing apps/software tools to review.
 2. Set up the $20,000 USD land fund tracker.
-3. Draft the first editing review using [Script Template](script_template.md).
+3. Draft the first editing review using [Script Template](html/script_template.html).
 4. Record a short Android phone camera test and a screen recording test.
 5. Decide whether Shorts or 10-minute reviews are the main first-month growth engine.
 
 ---
 
-[Parent: Index](Index.md) | [Next: Full Project Plan](PROJECT_PLAN.md)
+[Start Here](START_HERE.html) | [Index](html/Index.html) | [Next: Full Project Plan](html/PROJECT_PLAN.html)

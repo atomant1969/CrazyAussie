@@ -67,9 +67,12 @@ Markdown checkboxes may not save when clicked in a preview.
 Use [CHECKLIST_APP.html](CHECKLIST_APP.html) for real progress tracking. It saves:
 
 * checked tasks
+* in-progress tasks
 * notes
 * collapsed sections
 * scroll position
+
+The Markdown checklist is binary. The HTML checklist uses three states: not started, in progress, and completed.
 
 Progress is saved in the browser on that computer. Use **Export Progress** inside the checklist app if you want a backup.
 

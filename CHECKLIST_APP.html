@@ -15,6 +15,7 @@
       --accent: #116466;
       --accent-2: #d8643a;
       --done: #e5f3ee;
+      --started: #fff2d7;
       --shadow: 0 10px 25px rgba(40, 38, 34, 0.08);
     }
 
@@ -155,7 +156,7 @@
 
     .summary {
       display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
+      grid-template-columns: repeat(5, minmax(0, 1fr));
       gap: 12px;
     }
 
@@ -255,11 +256,35 @@
       color: var(--muted);
     }
 
-    input[type="checkbox"] {
-      width: 20px;
-      height: 20px;
-      margin-top: 2px;
-      accent-color: var(--accent);
+    .item.in-progress {
+      background: var(--started);
+    }
+
+    .status-cycle {
+      min-width: 112px;
+      min-height: 34px;
+      padding: 6px 9px;
+      border-radius: 999px;
+      font-size: 0.84rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .status-not-started {
+      background: white;
+      color: var(--muted);
+    }
+
+    .status-in-progress {
+      background: #f0a83a;
+      border-color: #d28a20;
+      color: #3f2a08;
+    }
+
+    .status-completed {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: white;
     }
 
     .task-main {
@@ -312,11 +337,10 @@
       }
 
       .item {
-        grid-template-columns: auto 1fr;
+        grid-template-columns: 1fr;
       }
 
       .tag {
-        grid-column: 2;
         padding-top: 0;
       }
     }
@@ -336,8 +360,9 @@
         </div>
         <div class="filters" aria-label="Checklist filters">
           <button type="button" data-filter="all" aria-pressed="true">All</button>
-          <button type="button" data-filter="open" aria-pressed="false">Open</button>
-          <button type="button" data-filter="done" aria-pressed="false">Done</button>
+          <button type="button" data-filter="not-started" aria-pressed="false">Not Started</button>
+          <button type="button" data-filter="in-progress" aria-pressed="false">In Progress</button>
+          <button type="button" data-filter="completed" aria-pressed="false">Completed</button>
         </div>
       </div>
       <div class="tools">
@@ -353,7 +378,8 @@
   <main>
     <div class="summary" aria-label="Progress summary">
       <div class="metric"><strong id="doneCount">0</strong><span>completed</span></div>
-      <div class="metric"><strong id="openCount">0</strong><span>open</span></div>
+      <div class="metric"><strong id="progressCount">0</strong><span>in progress</span></div>
+      <div class="metric"><strong id="openCount">0</strong><span>not started</span></div>
       <div class="metric"><strong id="totalCount">0</strong><span>total tasks</span></div>
       <div class="metric"><strong id="percentCount">0%</strong><span>progress</span></div>
     </div>
@@ -439,46 +465,8 @@
         ]
       },
       {
-        title: "Phase 3: Growth Milestones",
-        description: "Track subscriber targets and when to increase bridge content.",
-        tasks: [
-          "Reach 100 subscribers.",
-          "Review which topics convert subscribers.",
-          "Reach 500 subscribers.",
-          "Check early YPP/fan funding eligibility requirements.",
-          "Reach 1,000 subscribers.",
-          "Check watch hours and Shorts views, but do not apply automatically.",
-          "Reach 5,000 subscribers.",
-          "Increase building-the-channel-in-public content.",
-          "Reach 10,000 subscribers.",
-          "Introduce regular Siberian project preparation updates.",
-          "Reach 25,000 subscribers.",
-          "Prepare the land/build content transition.",
-          "Reach 50,000 subscribers.",
-          "Begin MCN/YPP setup and main project transition."
-        ]
-      },
-      {
-        title: "Phase 4: Siberian Project Transition",
-        description: "Move from beginner YouTube education toward the build documentary.",
-        tasks: [
-          "Publish a clear transition video.",
-          "Explain why editing tutorials led into the Siberian build.",
-          "Poll audience about build topics.",
-          "Start documenting land/build preparation without exposing exact location.",
-          "Start documenting tool and filming preparation.",
-          "Create build season roadmap.",
-          "Decide first real build task.",
-          "Draft first land/preparation episode.",
-          "Draft first structure decision episode.",
-          "Draft banya planning episode.",
-          "Draft cabin planning episode.",
-          "Draft main house planning episode."
-        ]
-      },
-      {
-        title: "Phase 5: Monetization Research",
-        description: "Research YPP, MCNs, withholding, country routes, and payout assumptions.",
+        title: "Phase 3: Monetization Research",
+        description: "Research YPP, MCNs, withholding, country routes, and payout assumptions before major growth gates.",
         tasks: [
           "Re-check current YouTube Partner Program thresholds before applying.",
           "Re-check any February 1, 2027 YPP changes if applying after that date.",
@@ -506,6 +494,44 @@
         ]
       },
       {
+        title: "Phase 4: Growth Milestones",
+        description: "Track subscriber targets and when to increase bridge content.",
+        tasks: [
+          "Reach 100 subscribers.",
+          "Review which topics convert subscribers.",
+          "Reach 500 subscribers.",
+          "Check early YPP/fan funding eligibility requirements.",
+          "Reach 1,000 subscribers.",
+          "Check watch hours and Shorts views, but do not apply automatically.",
+          "Reach 5,000 subscribers.",
+          "Increase building-the-channel-in-public content.",
+          "Reach 10,000 subscribers.",
+          "Introduce regular Siberian project preparation updates.",
+          "Reach 25,000 subscribers.",
+          "Prepare the land/build content transition.",
+          "Reach 50,000 subscribers.",
+          "Begin MCN/YPP setup and main project transition."
+        ]
+      },
+      {
+        title: "Phase 5: Siberian Project Transition",
+        description: "Move from beginner YouTube education toward the build documentary.",
+        tasks: [
+          "Publish a clear transition video.",
+          "Explain why editing tutorials led into the Siberian build.",
+          "Poll audience about build topics.",
+          "Start documenting land/build preparation without exposing exact location.",
+          "Start documenting tool and filming preparation.",
+          "Create build season roadmap.",
+          "Decide first real build task.",
+          "Draft first land/preparation episode.",
+          "Draft first structure decision episode.",
+          "Draft banya planning episode.",
+          "Draft cabin planning episode.",
+          "Draft main house planning episode."
+        ]
+      },
+      {
         title: "Phase 6: Ongoing Review",
         description: "Keep the system alive after launch.",
         tasks: [
@@ -529,19 +555,36 @@
     const searchEl = document.getElementById("search");
     const progressBar = document.getElementById("progressBar");
     const doneCount = document.getElementById("doneCount");
+    const progressCount = document.getElementById("progressCount");
     const openCount = document.getElementById("openCount");
     const totalCount = document.getElementById("totalCount");
     const percentCount = document.getElementById("percentCount");
+    const statusLabels = {
+      "not-started": "Not Started",
+      "in-progress": "In Progress",
+      "completed": "Completed"
+    };
+    const nextStatus = {
+      "not-started": "in-progress",
+      "in-progress": "completed",
+      "completed": "not-started"
+    };
 
     function idFor(sectionIndex, taskIndex, task) {
-      return `${sectionIndex + 1}.${taskIndex + 1}-${task.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`;
+      return task.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
     }
 
     function loadState() {
       try {
-        return JSON.parse(localStorage.getItem(STORAGE_KEY)) || { tasks: {}, notes: {}, collapsed: {} };
+        const loaded = JSON.parse(localStorage.getItem(STORAGE_KEY)) || { tasks: {}, notes: {}, collapsed: {}, statuses: {} };
+        return {
+          tasks: loaded.tasks || {},
+          statuses: loaded.statuses || {},
+          notes: loaded.notes || {},
+          collapsed: loaded.collapsed || {}
+        };
       } catch {
-        return { tasks: {}, notes: {}, collapsed: {} };
+        return { tasks: {}, statuses: {}, notes: {}, collapsed: {} };
       }
     }
 
@@ -561,23 +604,25 @@
           return {
             id,
             task,
-            done: Boolean(state.tasks[id]),
+            status: statusFor(id),
             note: state.notes[id] || "",
-            taskIndex
+            taskIndex,
+            tag: `${sectionIndex + 1}.${taskIndex + 1}`
           };
         });
 
         const filteredTasks = sectionTaskData.filter(item => {
           const haystack = `${section.title} ${section.description} ${item.task} ${item.note}`.toLowerCase();
           const matchesSearch = !query || haystack.includes(query);
-          const matchesFilter = filter === "all" || (filter === "done" && item.done) || (filter === "open" && !item.done);
+          const matchesFilter = filter === "all" || filter === item.status;
           return matchesSearch && matchesFilter;
         });
 
         if (!filteredTasks.length) return;
         visibleItems += filteredTasks.length;
 
-        const completedInSection = sectionTaskData.filter(item => item.done).length;
+        const completedInSection = sectionTaskData.filter(item => item.status === "completed").length;
+        const inProgressInSection = sectionTaskData.filter(item => item.status === "in-progress").length;
         const sectionEl = document.createElement("section");
         sectionEl.id = sectionId;
 
@@ -590,7 +635,7 @@
             <strong>${escapeHtml(section.title)}</strong>
             <span>${escapeHtml(section.description)}</span>
           </span>
-          <span class="section-count">${completedInSection}/${section.tasks.length}</span>
+          <span class="section-count">${completedInSection} done / ${inProgressInSection} active / ${section.tasks.length}</span>
         `;
         head.addEventListener("click", () => {
           state.collapsed[sectionId] = !state.collapsed[sectionId];
@@ -604,15 +649,18 @@
 
         filteredTasks.forEach(item => {
           const row = document.createElement("div");
-          row.className = `item${item.done ? " done" : ""}`;
+          row.className = `item ${item.status === "completed" ? "done" : item.status === "in-progress" ? "in-progress" : ""}`;
           row.dataset.id = item.id;
 
-          const checkbox = document.createElement("input");
-          checkbox.type = "checkbox";
-          checkbox.checked = item.done;
-          checkbox.setAttribute("aria-label", item.task);
-          checkbox.addEventListener("change", () => {
-            state.tasks[item.id] = checkbox.checked;
+          const statusButton = document.createElement("button");
+          statusButton.type = "button";
+          statusButton.className = `status-cycle status-${item.status}`;
+          statusButton.textContent = statusLabels[item.status];
+          statusButton.setAttribute("aria-label", `${item.task}: ${statusLabels[item.status]}`);
+          statusButton.addEventListener("click", () => {
+            const updated = nextStatus[statusFor(item.id)];
+            state.statuses[item.id] = updated;
+            state.tasks[item.id] = updated === "completed";
             saveState();
             render();
           });
@@ -635,9 +683,9 @@
 
           const tag = document.createElement("div");
           tag.className = "tag";
-          tag.textContent = item.id.split("-")[0];
+          tag.textContent = item.tag;
 
-          row.append(checkbox, main, tag);
+          row.append(statusButton, main, tag);
           itemsEl.append(row);
         });
 
@@ -649,6 +697,11 @@
       updateSummary();
     }
 
+    function statusFor(id) {
+      if (state.statuses && state.statuses[id]) return state.statuses[id];
+      return state.tasks && state.tasks[id] ? "completed" : "not-started";
+    }
+
     function updateSummary() {
       const all = [];
       checklist.forEach((section, sectionIndex) => {
@@ -656,11 +709,13 @@
           all.push(idFor(sectionIndex, taskIndex, task));
         });
       });
-      const done = all.filter(id => state.tasks[id]).length;
+      const done = all.filter(id => statusFor(id) === "completed").length;
+      const active = all.filter(id => statusFor(id) === "in-progress").length;
       const total = all.length;
       const percent = total ? Math.round((done / total) * 100) : 0;
       doneCount.textContent = done;
-      openCount.textContent = total - done;
+      progressCount.textContent = active;
+      openCount.textContent = total - done - active;
       totalCount.textContent = total;
       percentCount.textContent = `${percent}%`;
       progressBar.style.width = `${percent}%`;
@@ -703,6 +758,7 @@
           if (!incoming.tasks || !incoming.notes) throw new Error("Missing checklist data");
           state = {
             tasks: incoming.tasks || {},
+            statuses: incoming.statuses || {},
             notes: incoming.notes || {},
             collapsed: incoming.collapsed || {}
           };
@@ -734,7 +790,7 @@
     });
     document.getElementById("resetBtn").addEventListener("click", () => {
       if (!confirm("Reset all saved checklist progress and notes in this browser?")) return;
-      state = { tasks: {}, notes: {}, collapsed: {} };
+      state = { tasks: {}, statuses: {}, notes: {}, collapsed: {} };
       saveState();
       render();
     });

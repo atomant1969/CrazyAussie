@@ -4,7 +4,13 @@ Parent: [Index](Index.md)
 
 Tool: [Interactive Checklist](CHECKLIST_APP.html)
 
-Use this Markdown file as the checklist reference. Use the interactive checklist tool when you want checked items and notes to survive refreshes.
+Use this Markdown file as the checklist reference. Use the interactive checklist tool when you want saved progress, notes, and three states: not started, in progress, completed.
+
+Markdown checkboxes are binary only. The three-state workflow is handled in [Interactive Checklist](CHECKLIST_APP.html), where each task can be cycled through:
+
+1. Not started.
+2. In progress.
+3. Completed.
 
 Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md) | [Upload Checklist](UPLOAD_CHECKLIST.md)
 
@@ -70,39 +76,7 @@ Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md
 - [ ] Review first video after 24 hours.
 - [ ] Review first video after 7 days.
 
-## Phase 3: Growth Milestones
-
-- [ ] Reach 100 subscribers.
-- [ ] Review which topics convert subscribers.
-- [ ] Reach 500 subscribers.
-- [ ] Check early YPP/fan funding eligibility requirements.
-- [ ] Reach 1,000 subscribers.
-- [ ] Check watch hours and Shorts views, but do not apply automatically.
-- [ ] Reach 5,000 subscribers.
-- [ ] Increase "building the channel in public" content.
-- [ ] Reach 10,000 subscribers.
-- [ ] Introduce regular Siberian project preparation updates.
-- [ ] Reach 25,000 subscribers.
-- [ ] Prepare the land/build content transition.
-- [ ] Reach 50,000 subscribers.
-- [ ] Begin MCN/YPP setup and main project transition.
-
-## Phase 4: Siberian Project Transition
-
-- [ ] Publish a clear transition video.
-- [ ] Explain why editing tutorials led into the Siberian build.
-- [ ] Poll audience about build topics.
-- [ ] Start documenting land/build preparation without exposing exact location.
-- [ ] Start documenting tool and filming preparation.
-- [ ] Create build season roadmap.
-- [ ] Decide first real build task.
-- [ ] Draft first land/preparation episode.
-- [ ] Draft first structure decision episode.
-- [ ] Draft banya planning episode.
-- [ ] Draft cabin planning episode.
-- [ ] Draft main house planning episode.
-
-## Phase 5: Monetization Research
+## Phase 3: Monetization Research
 
 - [ ] Re-check current YouTube Partner Program thresholds before applying.
 - [ ] Re-check any February 1, 2027 YPP changes if applying after that date.
@@ -127,6 +101,38 @@ Related: [Full Project Plan](PROJECT_PLAN.md) | [First 90 Days](FIRST_90_DAYS.md
 - [ ] Compare direct route vs MCN route.
 - [ ] Choose monetization route.
 - [ ] Apply around 50k subscribers only after the payout path is clear, unless the strategy changes.
+
+## Phase 4: Growth Milestones
+
+- [ ] Reach 100 subscribers.
+- [ ] Review which topics convert subscribers.
+- [ ] Reach 500 subscribers.
+- [ ] Check early YPP/fan funding eligibility requirements.
+- [ ] Reach 1,000 subscribers.
+- [ ] Check watch hours and Shorts views, but do not apply automatically.
+- [ ] Reach 5,000 subscribers.
+- [ ] Increase "building the channel in public" content.
+- [ ] Reach 10,000 subscribers.
+- [ ] Introduce regular Siberian project preparation updates.
+- [ ] Reach 25,000 subscribers.
+- [ ] Prepare the land/build content transition.
+- [ ] Reach 50,000 subscribers.
+- [ ] Begin MCN/YPP setup and main project transition.
+
+## Phase 5: Siberian Project Transition
+
+- [ ] Publish a clear transition video.
+- [ ] Explain why editing tutorials led into the Siberian build.
+- [ ] Poll audience about build topics.
+- [ ] Start documenting land/build preparation without exposing exact location.
+- [ ] Start documenting tool and filming preparation.
+- [ ] Create build season roadmap.
+- [ ] Decide first real build task.
+- [ ] Draft first land/preparation episode.
+- [ ] Draft first structure decision episode.
+- [ ] Draft banya planning episode.
+- [ ] Draft cabin planning episode.
+- [ ] Draft main house planning episode.
 
 ## Phase 6: Ongoing Review
 

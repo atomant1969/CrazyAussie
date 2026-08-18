@@ -600,6 +600,15 @@
       "Monetization Curriculum": "html/MONETIZATION_CURRICULUM.html",
       "Land Funding Plan": "html/FUNDING_PLAN.html"
     };
+    const legacyTaskIds = {
+      "create-a-reusable-lead-in-content-lead-out-structure-from-video-structure": "create-a-reusable-lead-in-content-lead-out-structure-from-video-structure-md",
+      "use-beginner-youtube-curriculum-to-expand-each-beginner-video-before-scripting": "use-beginner-youtube-curriculum-md-to-expand-each-beginner-video-before-scripting",
+      "create-a-reusable-viral-video-packaging-checklist-from-viral-video-strategy": "create-a-reusable-viral-video-packaging-checklist-from-viral-video-strategy-md",
+      "create-a-reusable-promotion-checklist-from-distribution-and-promotion-plan": "create-a-reusable-promotion-checklist-from-distribution-promotion-plan-md",
+      "review-micro-tips-and-script-inserts-before-recording-each-beginner-tutorial": "review-micro-tips-and-script-inserts-md-before-recording-each-beginner-tutorial",
+      "build-a-monetization-table-from-monetization-curriculum": "build-a-monetization-table-from-monetization-curriculum-md",
+      "build-a-land-funding-tracker-from-land-funding-plan": "build-a-land-funding-tracker-from-funding-plan-md"
+    };
     const nextStatus = {
       "not-started": "in-progress",
       "in-progress": "completed",
@@ -626,6 +635,21 @@
 
     function saveState() {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    }
+
+    function migrateLegacyTaskIds() {
+      Object.entries(legacyTaskIds).forEach(([currentId, legacyId]) => {
+        if (state.statuses[legacyId] && !state.statuses[currentId]) {
+          state.statuses[currentId] = state.statuses[legacyId];
+        }
+        if (state.tasks[legacyId] && !state.tasks[currentId]) {
+          state.tasks[currentId] = state.tasks[legacyId];
+        }
+        if (state.notes[legacyId] && !state.notes[currentId]) {
+          state.notes[currentId] = state.notes[legacyId];
+        }
+      });
+      saveState();
     }
 
     function render() {
@@ -860,6 +884,7 @@
       scrollTimer = setTimeout(() => localStorage.setItem(SCROLL_KEY, String(window.scrollY)), 120);
     });
 
+    migrateLegacyTaskIds();
     render();
     const savedScroll = Number(localStorage.getItem(SCROLL_KEY) || 0);
     if (savedScroll > 0) requestAnimationFrame(() => window.scrollTo(0, savedScroll));
